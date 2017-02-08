@@ -1,12 +1,74 @@
 // Custom styles
 
+@green: #9ab83e;
+@blue: #0795c3;
+@orange: #fd6818;
+
+
+.main {
+	text-align: justify;
+}
+
+.navbar-default {
+	background-color: @green;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+
+section {
+	border-bottom: 1px solid #e7e7e7;
+	padding: 30px 0 30px; 
+	margin-bottom: 36px;
+	&:not(:first-of-type) {
+		border-top: 1px solid #e7e7e7;
+	}
+}
+
 .infographic {
 	display: block;
-	margin-left: auto;
-    margin-right: auto;
+	margin: 48px auto 24px;
 	width: 75%;
 }
 
+h3 {
+	color: @green;
+	margin: 16px 0 24px;
+}
+
+.btn-row {
+	margin-top: 36px;
+}
+
+.btn, .btn-embossed, .btn-primary {
+	background-color: @blue;
+	margin-bottom: 8px;
+	margin-right: 16px;
+	&:hover,:focus,:active {
+		background-color: @orange;
+		border: 1px solid @orange;
+	}
+}
+
 .react-sanfona-item-title {
-	font-size: 20px;
+	color: @blue;
+	font-size: 16px;
+	padding: 8px;
+	border: 1px solid #e7e7e7;
+	border-radius: 2px;
+	&:hover,:focus,:active {
+		color: @orange;
+		border: 1px solid @orange;
+	}
+}
+
+.react-sanfona-item-body-wrapper {
+	padding: 16px;
+	line-height: 1.42;
+}
+
+.social a {
+	color: @blue;
+	padding-right: 16px;
 }

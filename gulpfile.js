@@ -21,7 +21,6 @@ var config = {
 		less: './src/less/**/*.less',
 		css: [
 		'node_modules/bootstrap/dist/css/bootstrap.min.css',
-		'node_modules/bootstrap/dist/css/bootstrap-theme.min.css',
 		'./src/css/*.css'
 		],
 		dist: './dist'
@@ -58,7 +57,13 @@ gulp.task('js', function() {
 		.pipe(connect.reload())
 });
 
-gulp.task('less', function () {
+gulp.task('fonts', function() {
+    gulp.src('./src/font-awesome/**/*')
+        .pipe(gulp.dest(config.paths.dist + '/font-awesome'))
+        .pipe(connect.reload());
+});
+
+gulp.task('less', function() {
   return gulp.src(config.paths.less)
     .pipe(less({
       paths: [ path.join(__dirname, 'less', 'includes') ]
@@ -92,7 +97,8 @@ gulp.task('lint', function() {
 gulp.task('watch', function() {
 	gulp.watch(config.paths.html, ['html']);
 	gulp.watch(config.paths.less, ['less', 'css']);
+	gulp.watch(config.paths.css, ['css']);
 	gulp.watch(config.paths.js, ['js', 'lint']);
 });
 
-gulp.task('default', ['html', 'js', 'less', 'css', 'images', 'lint', 'open', 'watch']);
+gulp.task('default', ['html', 'js', 'fonts', 'less', 'css', 'images', 'lint', 'open', 'watch']);

@@ -8,6 +8,7 @@ var Blog = React.createClass({
 			<container>
 				<div className="row">
 					<div className="col-xs-10 col-sm-8 col-sm-offset-2">
+					<section>
 						<h1>Blog posts</h1>
 						<ul>
 							<li>
@@ -20,6 +21,7 @@ var Blog = React.createClass({
 								<a href="https://medium.com/giveth/the-minime-token-open-sourced-by-giveth-2710c0210787?source=collection_home---4------2----------" target="_blank">The MiniMe Token: Open Sourced by Giveth</a>
 							</li>
 						</ul>
+					</section>
 					</div>
 				</div>
 			</container>

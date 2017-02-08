@@ -1,9 +1,69 @@
+.main {
+  text-align: justify;
+}
+.navbar-default {
+  background-color: #9ab83e;
+}
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+section {
+  border-bottom: 1px solid #e7e7e7;
+  padding: 30px 0 30px;
+  margin-bottom: 36px;
+}
+section:not(:first-of-type) {
+  border-top: 1px solid #e7e7e7;
+}
 .infographic {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 48px auto 24px;
   width: 75%;
 }
+h3 {
+  color: #9ab83e;
+  margin: 16px 0 24px;
+}
+.btn-row {
+  margin-top: 36px;
+}
+.btn,
+.btn-embossed,
+.btn-primary {
+  background-color: #0795c3;
+  margin-bottom: 8px;
+  margin-right: 16px;
+}
+.btn:hover,
+.btn-embossed:hover,
+.btn-primary:hover,
+.btn :focus,
+.btn-embossed :focus,
+.btn-primary :focus,
+.btn :active,
+.btn-embossed :active,
+.btn-primary :active {
+  background-color: #fd6818;
+  border: 1px solid #fd6818;
+}
 .react-sanfona-item-title {
-  font-size: 20px;
+  color: #0795c3;
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid #e7e7e7;
+  border-radius: 2px;
+}
+.react-sanfona-item-title:hover,
+.react-sanfona-item-title :focus,
+.react-sanfona-item-title :active {
+  color: #fd6818;
+  border: 1px solid #fd6818;
+}
+.react-sanfona-item-body-wrapper {
+  padding: 16px;
+  line-height: 1.42;
+}
+.social a {
+  color: #0795c3;
+  padding-right: 16px;
 }

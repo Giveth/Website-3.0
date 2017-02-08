@@ -22,7 +22,7 @@ var Blog = require('./components/blog/blogPage');
 		}
 
 		return (
-			<div>
+			<div className="main">
 				<Header/>
 				<Child/>
 			</div>
