@@ -1,5 +1,6 @@
 .main {
   text-align: justify;
+  font-family: Bitter, serif;
 }
 .navbar-default {
   background-color: #9ab83e;
@@ -20,7 +21,11 @@ section:not(:first-of-type) {
   margin: 48px auto 24px;
   width: 75%;
 }
+h1 {
+  font-family: Amaranth, sans-serif;
+}
 h3 {
+  font-family: Titillium, sans-serif;
   color: #9ab83e;
   margin: 16px 0 24px;
 }
@@ -30,6 +35,7 @@ h3 {
 .btn,
 .btn-embossed,
 .btn-primary {
+  font-family: Titillium, sans-serif;
   background-color: #0795c3;
   margin-bottom: 8px;
   margin-right: 16px;

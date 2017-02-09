@@ -28,7 +28,8 @@ var Home = React.createClass({
 						<section>
 							<h4>Giveth’s open source software can be integrated into any donation based project.</h4>
 							<p>Both global charities and small open source development teams alike can use Giveth’s code and culture to bring transparency, accountability and trust to their community of Donors and Change Makers, powered by the Ethereum Blockchain.</p>
-							<p>The way donations are handled is ready for a massive evolution. Bitcoin is already a major step forward, allowing money to be sent directly to anyone in the world in a transparent frictionless manner. But Giveth’s Ethereum-based smart contracts take it even further enabling Donors to organize with Change Makers in a decentralized fashion.</p>
+							<p>The way donations are handled is ready for a massive evolution. Bitcoin is already a major step forward, allowing money to be sent directly to anyone in the world in a transparent frictionless manner.</p>
+							<p>But Giveth’s Ethereum-based smart contracts take it even further enabling Donors to organize with Change Makers in a decentralized fashion.</p>
 							<img src="images/current_charity__2_.png" className="infographic" alt="Current Charity Model"/>
 						</section>
 						<section>
@@ -45,8 +46,8 @@ var Home = React.createClass({
 							<p>The Giveth Core Team has been using the Giveth platform to sustain our own development since our inception. We firmly believe using our result-based incentive structure has helped keep us focused on producing results. The results:</p>
 								<div className="row btn-row">
 									<center>
-										<a href="https://github.com/Giveth/minime" target="_blank" className="btn btn-embossed btn-primary"><i className="fa fa-male"></i>    MiniMe Token</a>
-										<a href="https://github.com/Giveth/vaultcontract" target="_blank" className="btn btn-embossed btn-primary"><i className="fa fa-bank"></i>    Vault Contract</a>
+										<a href="https://medium.com/giveth/the-minime-token-open-sourced-by-giveth-2710c0210787#.wz704n8wb" target="_blank" className="btn btn-embossed btn-primary"><i className="fa fa-male"></i>    MiniMe Token</a>
+										<a href="https://medium.com/giveth/the-vault-contract-open-sourced-by-giveth-fe2261f7b91b#.6se2a6orr" target="_blank" className="btn btn-embossed btn-primary"><i className="fa fa-bank"></i>    Vault Contract</a>
 										<a href="https://github.com/Giveth/milestonetracker" target="_blank" className="btn btn-embossed btn-primary"><i className="fa fa-check"></i>    Milestone Tracker</a>
 									</center>
 								</div>								
