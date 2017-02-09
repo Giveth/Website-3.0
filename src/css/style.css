@@ -1,15 +1,18 @@
 .main {
   text-align: justify;
-  font-family: Bitter, serif;
+  font-family: Exo;
+}
+p,
+li {
+  font-size: 18px;
 }
 .navbar-default {
-  background-color: #9ab83e;
+  background-color: #99b83c;
 }
 .navbar-default .navbar-nav > li > a {
   color: white;
 }
 section {
-  border-bottom: 1px solid #e7e7e7;
   padding: 30px 0 30px;
   margin-bottom: 36px;
 }
@@ -26,7 +29,7 @@ h1 {
 }
 h3 {
   font-family: Titillium, sans-serif;
-  color: #9ab83e;
+  color: #74b728;
   margin: 16px 0 24px;
 }
 .btn-row {
@@ -36,7 +39,7 @@ h3 {
 .btn-embossed,
 .btn-primary {
   font-family: Titillium, sans-serif;
-  background-color: #0795c3;
+  background-color: #21a2ef;
   margin-bottom: 8px;
   margin-right: 16px;
 }
@@ -49,11 +52,11 @@ h3 {
 .btn :active,
 .btn-embossed :active,
 .btn-primary :active {
-  background-color: #fd6818;
-  border: 1px solid #fd6818;
+  background-color: #ffbd4a;
+  border: 1px solid #ffbd4a;
 }
 .react-sanfona-item-title {
-  color: #0795c3;
+  color: #21a2ef;
   font-size: 16px;
   padding: 8px;
   border: 1px solid #e7e7e7;
@@ -62,14 +65,14 @@ h3 {
 .react-sanfona-item-title:hover,
 .react-sanfona-item-title :focus,
 .react-sanfona-item-title :active {
-  color: #fd6818;
-  border: 1px solid #fd6818;
+  color: #ffbd4a;
+  border: 1px solid #ffbd4a;
 }
 .react-sanfona-item-body-wrapper {
   padding: 16px;
   line-height: 1.42;
 }
 .social a {
-  color: #0795c3;
+  color: #21a2ef;
   padding-right: 16px;
 }

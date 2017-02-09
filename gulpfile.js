@@ -20,6 +20,7 @@ var config = {
 		images: './src/images/*',
 		less: './src/less/**/*.less',
 		css: [
+		'./src/css/fonts.css',
 		'node_modules/bootstrap/dist/css/bootstrap.min.css',
 		'./src/css/*.css'
 		],
@@ -58,7 +59,13 @@ gulp.task('js', function() {
 });
 
 gulp.task('fonts', function() {
-    gulp.src('./src/font-awesome/**/*')
+    gulp.src('./src/fonts/**/*')
+        .pipe(gulp.dest(config.paths.dist + '/fonts'))
+        .pipe(connect.reload());
+});
+
+gulp.task('font-awesome', function() {
+    gulp.src('./src/font-awesome')
         .pipe(gulp.dest(config.paths.dist + '/font-awesome'))
         .pipe(connect.reload());
 });
