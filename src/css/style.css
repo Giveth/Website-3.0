@@ -17,7 +17,7 @@ li {
   height: 20px;
 }
 .row {
-  padding: 30px 0 30px;
+  padding: 24px 0;
 }
 .separation {
   padding-bottom: 24px;
@@ -32,6 +32,7 @@ li {
   height: 400px;
 }
 .intro-text {
+  text-align: center;
   margin: 20% 0;
 }
 strong {
@@ -40,8 +41,9 @@ strong {
 }
 .infographic {
   display: block;
-  margin: 48px auto 24px;
-  width: 75%;
+  margin: 15px auto;
+  width: 95%;
+  border-radius: 4px;
 }
 h1 {
   font-family: Amaranth, sans-serif;
