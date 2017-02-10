@@ -53,11 +53,11 @@ var Home = React.createClass({
 				<div className="row separation">
 					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
 						<section>
-						<div className="col-xs-6">
+						<div className="col-xs-7">
 							{/* To be replaced by new infographic */}
 							<img src="images/current_charity__2_.png" className="infographic" alt="Current Charity Model"/>
 						</div>
-						<div className="col-xs-6">
+						<div className="col-xs-5">
 							<h3>The Giveth Solution</h3>
 							<p>Align <strong>incentives</strong> with transparent payments based on results, and a <strong>decentralized governance system</strong> powered by smart contracts on the Ethereum blockchain.</p>
 							<p>Open a communication channel for Donors to <strong>interact directly</strong> with the Recipients of their donations.</p>
