@@ -2,11 +2,11 @@
 
 var React = require('react');
 
-var Donate = React.createClass({
+var French = React.createClass({
 	render: function() {
 		return (
 			<div>
-				<h1>Donate</h1>
+				<h1>Version française</h1>
 				<p>
 					
 				</p>
@@ -15,4 +15,4 @@ var Donate = React.createClass({
 	}
 });
 
-module.exports = Donate;
+module.exports = French;

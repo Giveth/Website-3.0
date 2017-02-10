@@ -2,11 +2,11 @@
 
 var React = require('react');
 
-var Bug = React.createClass({
+var Solution = React.createClass({
 	render: function() {
 		return (
 			<div>
-				<h1>Bug</h1>
+				<h1>Solution</h1>
 				<p>
 					
 				</p>
@@ -15,4 +15,4 @@ var Bug = React.createClass({
 	}
 });
 
-module.exports = Bug;
+module.exports = Solution;

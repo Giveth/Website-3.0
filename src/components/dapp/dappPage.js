@@ -2,11 +2,11 @@
 
 var React = require('react');
 
-var Milestone = React.createClass({
+var Dapp = React.createClass({
 	render: function() {
 		return (
 			<div>
-				<h1>Milestone</h1>
+				<h1>Dapp</h1>
 				<p>
 					
 				</p>
@@ -15,4 +15,4 @@ var Milestone = React.createClass({
 	}
 });
 
-module.exports = Milestone;
+module.exports = Dapp;

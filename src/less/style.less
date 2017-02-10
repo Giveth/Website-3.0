@@ -18,19 +18,44 @@ p, li {
 }
 
 .navbar-default {
-	background-color: @bg-green;
+	background-color: @grey;
 }
 
-.navbar-default .navbar-nav > li > a {
-	color: white;
+.navbar-nav .navbar-brand {
+	font-family: Amaranth, sans-serif;
+	font-size: 24px;
 }
 
-section {
-	padding: 30px 0 30px; 
-	margin-bottom: 36px;
-	&:not(:first-of-type) {
-		border-top: 1px solid #e7e7e7;
-	}
+.flag {
+	height: 20px;
+}
+
+.row {
+	padding: 30px 0 30px;
+}
+
+.separation {
+	padding-bottom: 24px;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.intro {
+	padding-bottom: 48px;
+}
+
+.intro-logo {
+	background-image: url("/images/logo.svg");
+	background-repeat: no-repeat;
+	height: 400px;
+}
+
+.intro-text {
+	margin: 20% 0;
+}
+
+strong {
+	font-weight: bold;
+	color: @green;
 }
 
 .infographic {
@@ -45,12 +70,11 @@ h1 {
 
 h3 {
 	font-family: Titillium, sans-serif;
-	color: @green;
 	margin: 16px 0 24px;
 }
 
 .btn-row {
-	margin-top: 36px;
+	margin: 36px 0 -24px;
 }
 
 .btn, .btn-embossed, .btn-primary {
@@ -79,6 +103,10 @@ h3 {
 .react-sanfona-item-body-wrapper {
 	padding: 16px;
 	line-height: 1.42;
+}
+
+.accordion {
+	padding-bottom: 48px;
 }
 
 .social a {

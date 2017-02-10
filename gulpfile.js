@@ -55,19 +55,17 @@ gulp.task('js', function() {
 		.on('error', console.error.bind(console))
 		.pipe(source('bundle.js'))
 		.pipe(gulp.dest(config.paths.dist + '/scripts'))
-		.pipe(connect.reload())
+		.pipe(connect.reload());
 });
 
 gulp.task('fonts', function() {
     gulp.src('./src/fonts/**/*')
-        .pipe(gulp.dest(config.paths.dist + '/fonts'))
-        .pipe(connect.reload());
+        .pipe(gulp.dest(config.paths.dist + '/fonts'));
 });
 
 gulp.task('font-awesome', function() {
-    gulp.src('./src/font-awesome')
-        .pipe(gulp.dest(config.paths.dist + '/font-awesome'))
-        .pipe(connect.reload());
+    gulp.src('./src/font-awesome/**/*')
+        .pipe(gulp.dest(config.paths.dist + '/font-awesome'));
 });
 
 gulp.task('less', function() {
@@ -87,8 +85,7 @@ gulp.task('css', function() {
 
 gulp.task('images', function() {
     gulp.src(config.paths.images)
-        .pipe(gulp.dest(config.paths.dist + '/images'))
-        .pipe(connect.reload());
+        .pipe(gulp.dest(config.paths.dist + '/images'));
 
     //publish favicon
     gulp.src('./src/favicons/*')

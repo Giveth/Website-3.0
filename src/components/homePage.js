@@ -19,31 +19,43 @@ var Home = React.createClass({
 			<container>
 				<div className="row">
 					<div className="col-xs-10 col-sm-8 col-sm-offset-2">
-						<section className="intro">
-							<center>
-								<h1>Giveth is a smart contract platform</h1>
-								<h3>that can be used to build communities around the causes you care about.</h3>
-							</center>
-						</section>
-						<section>
+						<div className="row separation intro">
+							<div className="col-xs-6 intro-logo">
+							</div>
+							<div className="col-xs-6">
+								<div className="intro-text">
+									<h1>Giveth</h1>
+									<p>is a smart contract platform that can be used to build<br/><strong>communities</strong> around the <strong>causes</strong> you care about.</p>
+								</div>
+							</div>
+						</div>
+						<section className="row separation">
 							<h4>Giveth’s open source software can be integrated into any donation based project.</h4>
-							<p>Both global charities and small open source development teams alike can use Giveth’s code and culture to bring transparency, accountability and trust to their community of Donors and Change Makers, powered by the Ethereum Blockchain.</p>
-							<p>The way donations are handled is ready for a massive evolution. Bitcoin is already a major step forward, allowing money to be sent directly to anyone in the world in a transparent frictionless manner.</p>
-							<p>But Giveth’s Ethereum-based smart contracts take it even further enabling Donors to organize with Change Makers in a decentralized fashion.</p>
+							<p>Both global charities and small open source development teams alike can use Giveth’s code and culture to bring <strong>transparency, accountability and trust</strong> to their community of Donors and Change Makers, powered by the <strong>Ethereum Blockchain</strong>.</p>
+							<p>The way donations are handled is ready for a massive evolution. Bitcoin is already a major step forward, allowing money to be sent directly to anyone in the world in a <strong>transparent frictionless manner</strong>.</p>
+							<p>But Giveth’s Ethereum-based smart contracts take it even further enabling Donors to organize with Change Makers in a <strong>decentralized fashion</strong>.</p>
 							<img src="images/current_charity__2_.png" className="infographic" alt="Current Charity Model"/>
 						</section>
+					</div>
+				</div>
+				<div className="row">
+					<div className="col-xs-10 col-sm-8 col-sm-offset-2 separation">
 						<section>
 							<h3>The Giveth Solution</h3>
 							<ul>
-								<li>Align incentives with transparent payments based on results, and a decentralized governance system powered by smart contracts on the Ethereum blockchain.</li>
-								<li>Open a communication channel for Donors to interact directly with the Recipients of their donations.</li>
+								<li>Align <strong>incentives</strong> with transparent payments based on results, and a <strong>decentralized governance system</strong> powered by smart contracts on the Ethereum blockchain.</li>
+								<li>Open a communication channel for Donors to <strong>interact directly</strong> with the Recipients of their donations.</li>
 							</ul>
 							{/* To be replaced by new infographic */}
 							<img src="images/current_charity__2_.png" className="infographic" alt="Current Charity Model"/>
 						</section>
+					</div>
+				</div>
+				<div className="row">
+					<div className="col-xs-10 col-sm-8 col-sm-offset-2 separation">
 						<section>
 							<h3>Our Smart Contracts</h3>
-							<p>The Giveth Core Team has been using the Giveth platform to sustain our own development since our inception. We firmly believe using our result-based incentive structure has helped keep us focused on producing results. The results:</p>
+							<p>The Giveth Core Team has been using the Giveth platform to sustain our own development since our inception. We firmly believe using our <strong>result-based incentive structure</strong> has helped keep us focused on producing results. The results:</p>
 								<div className="row btn-row">
 									<center>
 										<a href="https://medium.com/giveth/the-minime-token-open-sourced-by-giveth-2710c0210787#.wz704n8wb" target="_blank" className="btn btn-embossed btn-primary"><i className="fa fa-male"></i>    MiniMe Token</a>
@@ -52,6 +64,10 @@ var Home = React.createClass({
 									</center>
 								</div>								
 						</section>
+					</div>
+				</div>
+				<div className="row">
+					<div className="col-xs-10 col-sm-8 col-sm-offset-2 separation accordion">
 						<section>
 							<h3>The Values that Lead our Design Choices:</h3>
 							<Accordion>
@@ -66,6 +82,10 @@ var Home = React.createClass({
 								})}
 							</Accordion>
 						</section>
+					</div>
+				</div>
+				<div className="row">
+					<div className="col-xs-10 col-sm-8 col-sm-offset-2">
 						<section>
 							<h3>Want to check out what we are doing these days?</h3>
 							<center>

@@ -3,10 +3,10 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var Home = require('./components/homePage');
 var Header = require('./components/common/header');
-var Donate = require('./components/donate/donatePage');
-var Milestone = require('./components/milestone/milestonePage');
-var Bug = require('./components/bug/bugPage');
+var Solution = require('./components/solution/solutionPage');
+var Dapp = require('./components/dapp/dappPage');
 var Blog = require('./components/blog/blogPage');
+{/* var French = require('./components/french/frenchPage'); */}
 
 (function(win) {
 	"use strict";
@@ -14,10 +14,10 @@ var Blog = require('./components/blog/blogPage');
 	render: function() {
 		var Child;
 		switch(this.props.route) {
-			case 'donate': Child = Donate; break;
-			case 'milestone': Child = Milestone; break;
-			case 'bug': Child = Bug; break;
+			case 'solution': Child = Solution; break;
+			case 'dapp': Child = Dapp; break;
 			case 'blog': Child = Blog; break;
+			{/* case 'french': Child = French; break; */}
 			default: Child = Home;
 		}
 
