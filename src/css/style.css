@@ -48,9 +48,17 @@ strong {
 h1 {
   font-family: Amaranth, sans-serif;
 }
-h3 {
+h3,
+h4 {
   font-family: Titillium, sans-serif;
   margin: 16px 0 24px;
+}
+.grey {
+  background-color: #ecebe6;
+}
+.slack-icon {
+  width: 10%;
+  margin-bottom: 24px;
 }
 .btn-row {
   margin: 36px 0 -24px;

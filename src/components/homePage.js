@@ -17,6 +17,7 @@ var Home = React.createClass({
 	render: function() {
 		return (
 			<container>
+				{/* Introduction with logo, baseline, infographic and explanation */}
 				<div className="row">
 					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
 						<div className="row separation intro">
@@ -48,8 +49,9 @@ var Home = React.createClass({
 						</section>
 					</div>
 				</div>
-				<div className="row">
-					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2 separation">
+				{/* Second infographic and explanation */}
+				<div className="row separation">
+					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
 						<section>
 						<div className="col-xs-6">
 							{/* To be replaced by new infographic */}
@@ -63,6 +65,17 @@ var Home = React.createClass({
 						</section>
 					</div>
 				</div>
+				{/* Link to the team's Slack */}
+				<div className="row separation grey">
+					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
+						<center>
+							<h3>Want to join the unicorns?</h3>
+							<a href="http://giveth.slack.com/" target="_blank"><img src="images/Slack-App-Icon.png" alt="Slack" className="slack-icon"/></a>
+							<p>Tell us about your project or how you can <strong>contribute</strong> to the Giveth Platform!</p>
+						</center>
+					</div>
+				</div>
+				{/* Smart contract presentation */}
 				<div className="row">
 					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2 separation">
 						<section>
@@ -78,8 +91,9 @@ var Home = React.createClass({
 						</section>
 					</div>
 				</div>
-				<div className="row">
-					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2 separation accordion">
+				{/* Core values accordion */}
+				<div className="row separation">
+					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2 accordion">
 						<section>
 							<h3>The Values that Lead our Design Choices:</h3>
 							<Accordion>
@@ -96,18 +110,19 @@ var Home = React.createClass({
 						</section>
 					</div>
 				</div>
-				<div className="row">
+				{/* Social media links */}
+				<div className="row grey">
 					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
 						<section>
 							<h3>Want to check out what we are doing these days?</h3>
 							<center>
 								<li className="social"> 
-								<a href="https://www.facebook.com/givethio/" target="_blank"><i className="fa fa-facebook fa-size"></i></a>
-								<a href="https://twitter.com/Givethio" target="_blank"><i className="fa fa-twitter fa-size"></i> </a> 
-								<a href="https://github.com/Giveth" target="_blank"><i className="fa fa-github fa-size"></i></a>
-								<a href="https://medium.com/giveth" target="_blank"><i className="fa fa-medium fa-size"></i></a>
-								<a href="http://giveth.slack.com/" target="_blank"><i className="fa fa-slack fa-size"></i></a>
-							</li>
+									<a href="https://www.facebook.com/givethio/" target="_blank"><i className="fa fa-facebook fa-size"></i></a>
+									<a href="https://twitter.com/Givethio" target="_blank"><i className="fa fa-twitter fa-size"></i></a> 
+									<a href="https://github.com/Giveth" target="_blank"><i className="fa fa-github fa-size"></i></a>
+									<a href="https://medium.com/giveth" target="_blank"><i className="fa fa-medium fa-size"></i></a>
+									<a href="http://giveth.slack.com/" target="_blank"><i className="fa fa-slack fa-size"></i></a>
+								</li>
 							</center>
 						</section>
 					</div>
