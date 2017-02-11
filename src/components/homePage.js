@@ -30,38 +30,32 @@ var Home = React.createClass({
 								</div>
 							</div>
 						</div>
-						<section className="row">
-							<div className="col-xs-5">
-								<h4>Giveth’s open source software can be integrated into any donation based project.</h4>
-								<p>Both global charities and small open source development teams alike can use Giveth’s code and culture to bring <strong>transparency, accountability and trust</strong> to their community of Donors and Change Makers, powered by the <strong>Ethereum Blockchain</strong>.</p>							
+						<section className="row separation">
+							<div className="col-lg-5">
+								<h2>Giveth’s open source software can be integrated into any donation based project.</h2>
+								<p>Both global charities and small open source development teams alike can use Giveth’s code and culture to bring <strong>transparency, accountability and trust</strong> to their community of Donors and Change Makers, powered by the <strong>Ethereum Blockchain</strong>.</p>
+								<p>The way donations are handled is ready for a massive evolution. Bitcoin is already a major step forward, allowing money to be sent directly to anyone in the world in a <strong>transparent frictionless manner</strong>.<br/>
+								But Giveth’s Ethereum-based smart contracts take it even further enabling Donors to organize with Change Makers in a <strong>decentralized fashion</strong>.</p>
 							</div>
-							<div className="col-xs-7">
+							<div className="col-lg-7">
 								<img src="images/current_charity__2_.png" className="infographic" alt="Current Charity Model"/>
-							</div>
-						</section>
-						<section>
-							<div className="row separation">
-								<div className="col-xs-12">
-									<p>The way donations are handled is ready for a massive evolution. Bitcoin is already a major step forward, allowing money to be sent directly to anyone in the world in a <strong>transparent frictionless manner</strong>.</p>
-									<p>But Giveth’s Ethereum-based smart contracts take it even further enabling Donors to organize with Change Makers in a <strong>decentralized fashion</strong>.</p>
-								</div>
 							</div>
 						</section>
 					</div>
 				</div>
 				{/* Second infographic and explanation */}
-				<div className="row separation">
+				<div className="row">
 					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
-						<section>
-						<div className="col-xs-7">
-							{/* To be replaced by new infographic */}
-							<img src="images/current_charity__2_.png" className="infographic" alt="Current Charity Model"/>
-						</div>
-						<div className="col-xs-5">
-							<h3>The Giveth Solution</h3>
-							<p>Align <strong>incentives</strong> with transparent payments based on results, and a <strong>decentralized governance system</strong> powered by smart contracts on the Ethereum blockchain.</p>
-							<p>Open a communication channel for Donors to <strong>interact directly</strong> with the Recipients of their donations.</p>
-						</div>
+						<section className="row solution">
+							<div className="col-lg-7">
+								{/* To be replaced by new infographic */}
+								<img src="images/current_charity__2_.png" className="infographic" alt="Current Charity Model"/>
+							</div>
+							<div className="col-lg-5">
+								<h2>The Giveth Solution</h2>
+								<p>Align <strong>incentives</strong> with transparent payments based on results, and a <strong>decentralized governance system</strong> powered by smart contracts on the Ethereum blockchain.</p>
+								<p>Open a communication channel for Donors to <strong>interact directly</strong> with the Recipients of their donations.</p>
+							</div>
 						</section>
 					</div>
 				</div>
@@ -69,17 +63,17 @@ var Home = React.createClass({
 				<div className="row separation grey">
 					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
 						<center>
-							<h3>Want to join the unicorns?</h3>
+							<h2>Want to join the unicorns?</h2>
 							<a href="http://giveth.slack.com/" target="_blank"><img src="images/Slack-App-Icon.png" alt="Slack" className="slack-icon"/></a>
 							<p>Tell us about your project or how you can <strong>contribute</strong> to the Giveth Platform!</p>
 						</center>
 					</div>
 				</div>
 				{/* Smart contract presentation */}
-				<div className="row">
-					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2 separation">
+				<div className="row separation">
+					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
 						<section>
-							<h3>Our Smart Contracts</h3>
+							<h2>Our Smart Contracts</h2>
 							<p>The Giveth Core Team has been using the Giveth platform to sustain our own development since our inception. We firmly believe using our <strong>result-based incentive structure</strong> has helped keep us focused on producing results. The results:</p>
 								<div className="row btn-row">
 									<center>
@@ -95,7 +89,7 @@ var Home = React.createClass({
 				<div className="row separation">
 					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2 accordion">
 						<section>
-							<h3>The Values that Lead our Design Choices:</h3>
+							<h2>The Values that Lead our Design Choices:</h2>
 							<Accordion>
 								{values.map((item) => {
 									return (
@@ -114,7 +108,7 @@ var Home = React.createClass({
 				<div className="row grey">
 					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
 						<section>
-							<h3>Want to check out what we are doing these days?</h3>
+							<h2>Want to check out what we are doing these days?</h2>
 							<center>
 								<li className="social"> 
 									<a href="https://www.facebook.com/givethio/" target="_blank"><i className="fa fa-facebook fa-size"></i></a>

@@ -35,12 +35,13 @@ p, li {
 }
 
 .separation {
-	padding-bottom: 24px;
+	padding-bottom: 36px;
 	border-bottom: 1px solid #e7e7e7;
 }
 
 .intro {
 	padding-bottom: 48px;
+	margin-bottom: 16px;
 }
 
 .intro-logo {
@@ -61,7 +62,7 @@ strong {
 
 .infographic {
 	display: block;
-	margin: 15px auto;
+	margin: 8px auto 16px;
 	width: 95%;
 	border-radius: 4px;
 }
@@ -70,9 +71,14 @@ h1 {
 	font-family: Amaranth, sans-serif;
 }
 
-h3, h4 {
+h2 {
 	font-family: Titillium, sans-serif;
+	font-size: 22px;
 	margin: 16px 0 24px;
+}
+
+.solution {
+	margin-top: -24px;
 }
 
 .grey {
@@ -117,10 +123,22 @@ h3, h4 {
 }
 
 .accordion {
-	padding-bottom: 48px;
+	padding-bottom: 36px;
 }
 
 .social a {
 	color: @blue;
 	padding-right: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+	.intro p {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.infographic {
+		margin: 36px auto;
+	}
 }
