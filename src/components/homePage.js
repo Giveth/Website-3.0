@@ -163,7 +163,7 @@ var Home = React.createClass({
 					</div>
 				</div>
 				<div className="row intro">
-					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
+					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2 footer">
 						<h3>Want to check out what we are doing these days?</h3>
 						<center>
 							<li className="social"> 
