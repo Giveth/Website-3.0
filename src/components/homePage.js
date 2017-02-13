@@ -59,7 +59,7 @@ var Home = React.createClass({
 								<p>The traditional charitable system has undergone a slow evolution and is out of date and out of touch.</p>
 								<p>It too often provides short-term, one-size-fits-all solutions that fail address the root causes of the problems they are trying to solve.</p>
 								<p>The Giveth community is building a new system, using Ethereum smart contracts, that will radically shift the way people think charity can and should work. Instead of a large centralized organization taking money from donors and paying people to make a change, donors are able to directly connect to the change makers on the ground. </p>
-								<p>Creative solutions to global issues will be able to emerge in a decentralized, local fashion, and the ones the methods that are successful can be scaled within the particular cause, and, because of the open source nature of this system, across all causes. If a cat charity builds a successful governance structure, a homeless charity can easily modify it for their own use. This is <strong>Donation 3.0</strong>.
+								<p>Creative solutions to global issues will be able to emerge in a decentralized, local fashion, and the ones the methods that are successful can be scaled within the particular cause, and, because of the open source nature of this system, across all causes. If a cat charity builds a successful governance structure, a homeless charity can easily modify it for their own use. This is <strong>Donation 3.0</strong>.</p>
 							</div>
 						</div>
 					</div>
