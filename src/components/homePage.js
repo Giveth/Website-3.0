@@ -158,7 +158,7 @@ var Home = React.createClass({
 							<p>If you want to work on a versatile smart contract platform empowering people to make a <strong>real change</strong> in this world...</p>
 						</div>
 						<div className="col-xs-2">
-							<a href="http://giveth.slack.com/" target="_blank"><img src="images/Slack-App-Icon.png" alt="Slack" className="slack-icon img-responsive"/></a>
+							<a href="http://slack.giveth.io/" target="_blank"><img src="images/Slack-App-Icon.png" alt="Slack" className="slack-icon img-responsive"/></a>
 						</div>
 					</div>
 				</div>
@@ -171,7 +171,7 @@ var Home = React.createClass({
 								<a href="https://twitter.com/Givethio" target="_blank"><i className="fa fa-twitter fa-size"></i></a> 
 								<a href="https://github.com/Giveth" target="_blank"><i className="fa fa-github fa-size"></i></a>
 								<a href="https://medium.com/giveth" target="_blank"><i className="fa fa-medium fa-size"></i></a>
-								<a href="http://giveth.slack.com/" target="_blank"><i className="fa fa-slack fa-size"></i></a>
+								<a href="http://slack.giveth.io/" target="_blank"><i className="fa fa-slack fa-size"></i></a>
 							</li>
 						</center>
 					</div>
