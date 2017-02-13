@@ -17,108 +17,163 @@ var Home = React.createClass({
 	render: function() {
 		return (
 			<container>
-				{/* Introduction with logo, baseline, infographic and explanation */}
-				<div className="row">
+				{/* Introduction with name and baseline */}
+				<div className="row intro">
 					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
-						<div className="row separation intro">
-							<div className="col-xs-6 intro-logo">
+						{/* Navigation */}
+						<nav className="navbar navbar-default">
+							<div className="container-fluid">
+								<ul className="nav navbar-nav">
+									<li><a href="/#community">Community</a></li>
+									<li><a href="/#solution">Solution</a></li>
+									<li><a href="/#dapp">Dapp</a></li>
+									<li><a href="/#campaign">Fund a campaign</a></li>
+									<li><a href="https://medium.com/giveth">Blog</a></li>
+									<li><a href="http://giveth.slack.com/" className="join">Join us</a></li>
+									{/* <li><a href="/#french"><img className="flag float-right" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAAAvCAYAAABe1bwWAAABlElEQVRoQ+3bv07CUBTH8d/BQYluYpx8D0cXWxYHTZCS+DcODj6MM5oIiQ6WKiRO+gY8isS4OACLHENDSUUlnFiGm/yYCFxK7iffnulWkHr5lUYRAz2HYBPAOgBJf29936ztWn8y8/r+0cXMa6csVEA7AmkrctXVqPqcrI03vnVSW1rs5+uAlLP4t+QaDsBMbFfCLpZPN6LLXgzjBeGtAAdZogyv5R4MoCp3hYerQ9ku33s5kZesUVyFiR1UfPGDxiOge4T5JtASPwjfABQIkxbQ1yGMzgPF6VsJGBDmjyoIQxjbwGAxLIbF2ARYjM2LM4bFsBibAIuxeXHGsBgWYxNgMTYvzhgWw2JsAizG5sUZw2JYjE2Axdi8OGNYDIuxCbAYmxdnDIthMTYBFmPz4oxhMSzGJjClGJ7B+4Gj7+IFYVOAuRzhdvGc78ioxXO+v91KgiJPhk/AjE+GDz8vlRr5jwWtA9jPZHKNLuLcrSSIurpyPH6WIMHwKuGOqJwBmjx98i8nR2A6ArQ/gZu16Pop2fAXkg44lBfMKAsAAAAASUVORK5CYII=" alt="French flag"/></a></li> */}
+								</ul>
 							</div>
-							<div className="col-xs-6">
-								<div className="intro-text">
-									<h1>Giveth</h1>
-									<p>is a smart contract platform that can be used to build<br/><strong>communities</strong> around the <strong>causes</strong> you care about.</p>
-								</div>
+						</nav>
+						{/* Introduction */}
+						<div className="row">
+							<div className="intro-text">
+								<h1>GIVETH.io</h1>
+								<p>Charitable donation is going through a massive transformation!<br/>
+								We are building communities around the causes you feel most passionate about.</p>
+								<button className="btn btn-primary">Donate</button>
 							</div>
 						</div>
-						<section className="row separation">
-							<div className="col-lg-5">
-								<h2>Giveth’s open source software can be integrated into any donation based project.</h2>
-								<p>Both global charities and small open source development teams alike can use Giveth’s code and culture to bring <strong>transparency, accountability and trust</strong> to their community of Donors and Change Makers, powered by the <strong>Ethereum Blockchain</strong>.</p>
-								<p>The way donations are handled is ready for a massive evolution. Bitcoin is already a major step forward, allowing money to be sent directly to anyone in the world in a <strong>transparent frictionless manner</strong>.<br/>
-								But Giveth’s Ethereum-based smart contracts take it even further enabling Donors to organize with Change Makers in a <strong>decentralized fashion</strong>.</p>
-							</div>
-							<div className="col-lg-7">
-								<img src="images/current_charity__2_.png" className="infographic" alt="Current Charity Model"/>
-							</div>
-						</section>
 					</div>
 				</div>
-				{/* Second infographic and explanation */}
+				{/* Logo and explanation */}
 				<div className="row">
 					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
-						<section className="row solution">
-							<div className="col-lg-7">
-								{/* To be replaced by new infographic */}
-								<img src="images/current_charity__2_.png" className="infographic" alt="Current Charity Model"/>
+						<div className="row">
+							<p className="explanation">Giveth is the next rΞvolution in charitable donation that builds and enables communities around the causes they care about</p>
+						</div>
+						<div className="row">
+							<div className="col-xs-12 col-md-5 intro-logo">					
 							</div>
-							<div className="col-lg-5">
-								<h2>The Giveth Solution</h2>
-								<p>Align <strong>incentives</strong> with transparent payments based on results, and a <strong>decentralized governance system</strong> powered by smart contracts on the Ethereum blockchain.</p>
-								<p>Open a communication channel for Donors to <strong>interact directly</strong> with the Recipients of their donations.</p>
+							<div className="col-xs-12 col-md-7 explanation-paragraph">
+								<p>New times demand rethinking and reengineering new ways to distribute <strong>charitable donations.</strong></p>
+								<p>The traditional charitable system has undergone a slow evolution and today is set up to fail.</p>
+								<p>It does not enable direct impact on solving problems; instead, it provides a short-term, one fits-all, fixes that, most often than not, sees the recurrence of the problem. Moreover, emerging benevolent societies seek different ways of enabling positive impact, we call these societies <strong>Unicorns</strong>.</p>
+								<p>Giveth is stepping up to build a new donation mechanism to the charitable landscape and allowing for a new operating system to facilitate this exchange between donors and change makers, namely <strong>Donation 3.0</strong></p>
 							</div>
-						</section>
+						</div>
+					</div>
+				</div>
+				{/* About Giveth */}
+				<div className="row grey">
+					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
+						<div className="row">
+							<div className="col-xs-12 col-md-6 about-text">
+								<h3>About Giveth</h3>
+								<p>A small core team of idealists with the desire to help and support great causes, got together to create Giveth. The team includes active members of the Ethereum community and master minds in smart contracts.</p>
+								<p>At Giveth, <strong>we believe</strong>:</p>
+								<ul>
+									<li>In making donation giving simple and fun.</li>
+									<li>In <strong>transparency</strong> and <strong>accountability</strong> when making use of resources offered by the community.</li>
+									<li>In encouraging and supporting anyone who wants to carry out work on a social cause and effect positive impact.</li>
+									<li>We all have the right to know how money is being used to fund the causes we care.</li>
+									<li>In <strong>action</strong> and <strong>reputation</strong>, carrying out projects that can be replicated anywhere in the world.</li>
+								</ul>
+							</div>
+							<div className="col-xs-12 col-md-6">	
+								<img src="/images/about.jpg" alt="About" className="img-responsive about-pic"/>				
+							</div>
+						</div>
+					</div>
+				</div>
+				{/* Why Giveth ? */}
+				<div className="row intro">
+					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
+						<div className="row">
+							<div className="col-xs-12 col-md-5">
+								<h3 className="why">Why Giveth ?</h3>
+							</div>
+							<div className="col-xs-12 col-md-7">
+								<p>Giveth is non-profit, dedicated to a completely open source development process every step of the way, we want to enable awesome solutions and for <strong>anyone</strong> to use.</p>
+								<p>It is time the charitable system evolves and integrates blockchain technology to enable frictionless, global, <strong>transparent</strong> peer-to-peer donations.</p>
+								<p>Giveth's smart contracts reward good people for doing good deeds, so you know <strong>exactly</strong> what impact your donation had.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				{/* The Giveth solution */}
+				<div className="row">
+					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
+						<div className="row">
+							<img src="/images/unicorn profile-transparent.png" alt="Logo" className="img-responsive small-logo"/>
+							<h2>The Giveth Solution</h2>
+							<div className="col-xs-12 col-md-6">
+								<p>Giveth is a new <strong>Ethereum Dapp</strong> developed to transform the incentive structures around donations. At its core, Giveth is a collection of modular smart contracts that can be used to connect Donors and Change Makers.</p>
+								<p>The foundational smart contracts are already written and are being tested live on the Ethereum Blockchain. Giveth is leading by example using these <strong>open source smart contracts</strong> to bring complete transparency to the funding of our own platform.</p>
+							</div>
+							<div className="col-xs-12 col-md-6">
+								<p>Using an open source system that enables transparency, accountability, and efficiency. Donors, using the Giveth smart contract framework, can send donations directly to the campaigns (campaigns = causes) that are providing solutions (no middlemen, only Solidity code).</p>
+								<p>But these donations will be only be collected by the campaigns upon the completion of pre-arranged milestones creating a <strong>result-focused incentive structure</strong>. Additionally, these campaign’s strategies will be public and the effective campaigns can scale up to be replicated globally.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			{/* How it works */}
+				<div className="row works grey">
+					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
+							<h3>How it works</h3>
+							<div className="row">
+								<div className="col-xs-3 col-sm-2">
+									<img src="/images/353400-200.png" alt="" className="img-responsive"/>
+									<p>You have an awesome idea for an awesome cause that will make a difference</p>
+								</div>
+								<div className="col-xs-3 col-sm-2">
+									<img src="/images/301245-200.png" alt="" className="img-responsive"/>
+									<p>You create your campaign and set your milestones</p>
+								</div>
+								<div className="col-xs-3 col-sm-2">
+									<img src="/images/244899-200.png" alt="" className="img-responsive"/>
+									<p>A like minded community promotes your cause</p>
+								</div>
+								<div className="col-xs-3 col-sm-2">
+									<img src="/images/91306-200.png" alt="" className="img-responsive"/>
+									<p>Donors find your awesome cause super special and send funds to your cause</p>
+								</div>
+								<div className="col-xs-3 col-sm-2">
+									<img src="/images/247217-200.png" alt="" className="img-responsive"/>
+									<p>Milestones are review as they get completed and funds get released</p>
+								</div>
+								<div className="col-xs-3 col-sm-2">
+									<img src="/images/unicorn profile-transparent.png" alt="" className="img-responsive"/>
+									<p>Another successful cause funded and more unicorns are created!</p>
+								</div>
+							</div>
 					</div>
 				</div>
 				{/* Link to the team's Slack */}
-				<div className="row separation grey">
+				<div className="row">
 					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
+						<div className="col-xs-10">
+							<h3>Join the community !</h3>
+							<p>We are actively seeking collaborators and like-minded partners to make this vision a reality.</p>
+							<p>If you want to work on a versatile smart contract platform empowering people to make a <strong>real change</strong> in this world...</p>
+						</div>
+						<div className="col-xs-2">
+							<a href="http://giveth.slack.com/" target="_blank"><img src="images/Slack-App-Icon.png" alt="Slack" className="slack-icon img-responsive"/></a>
+						</div>
+					</div>
+				</div>
+				<div className="row intro">
+					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
+						<h3>Want to check out what we are doing these days?</h3>
 						<center>
-							<h2>Want to join the unicorns?</h2>
-							<a href="http://giveth.slack.com/" target="_blank"><img src="images/Slack-App-Icon.png" alt="Slack" className="slack-icon"/></a>
-							<p>Tell us about your project or how you can <strong>contribute</strong> to the Giveth Platform!</p>
+							<li className="social"> 
+								<a href="https://www.facebook.com/givethio/" target="_blank"><i className="fa fa-facebook fa-size"></i></a>
+								<a href="https://twitter.com/Givethio" target="_blank"><i className="fa fa-twitter fa-size"></i></a> 
+								<a href="https://github.com/Giveth" target="_blank"><i className="fa fa-github fa-size"></i></a>
+								<a href="https://medium.com/giveth" target="_blank"><i className="fa fa-medium fa-size"></i></a>
+								<a href="http://giveth.slack.com/" target="_blank"><i className="fa fa-slack fa-size"></i></a>
+							</li>
 						</center>
-					</div>
-				</div>
-				{/* Smart contract presentation */}
-				<div className="row separation">
-					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
-						<section>
-							<h2>Our Smart Contracts</h2>
-							<p>The Giveth Core Team has been using the Giveth platform to sustain our own development since our inception. We firmly believe using our <strong>result-based incentive structure</strong> has helped keep us focused on producing results. The results:</p>
-								<div className="row btn-row">
-									<center>
-										<a href="https://medium.com/giveth/the-minime-token-open-sourced-by-giveth-2710c0210787#.wz704n8wb" target="_blank" className="btn btn-embossed btn-primary"><i className="fa fa-male"></i>    MiniMe Token</a>
-										<a href="https://medium.com/giveth/the-vault-contract-open-sourced-by-giveth-fe2261f7b91b#.6se2a6orr" target="_blank" className="btn btn-embossed btn-primary"><i className="fa fa-bank"></i>    Vault Contract</a>
-										<a href="https://github.com/Giveth/milestonetracker" target="_blank" className="btn btn-embossed btn-primary"><i className="fa fa-check"></i>    Milestone Tracker</a>
-									</center>
-								</div>								
-						</section>
-					</div>
-				</div>
-				{/* Core values accordion */}
-				<div className="row separation">
-					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2 accordion">
-						<section>
-							<h2>The Values that Lead our Design Choices:</h2>
-							<Accordion>
-								{values.map((item) => {
-									return (
-										<AccordionItem title={`${ item.name }`} slug={item.slug} key={item.key}>
-											<div>
-												{`${ item.content }`}
-											</div>
-										</AccordionItem>
-									);
-								})}
-							</Accordion>
-						</section>
-					</div>
-				</div>
-				{/* Social media links */}
-				<div className="row grey">
-					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
-						<section>
-							<h2>Want to check out what we are doing these days?</h2>
-							<center>
-								<li className="social"> 
-									<a href="https://www.facebook.com/givethio/" target="_blank"><i className="fa fa-facebook fa-size"></i></a>
-									<a href="https://twitter.com/Givethio" target="_blank"><i className="fa fa-twitter fa-size"></i></a> 
-									<a href="https://github.com/Giveth" target="_blank"><i className="fa fa-github fa-size"></i></a>
-									<a href="https://medium.com/giveth" target="_blank"><i className="fa fa-medium fa-size"></i></a>
-									<a href="http://giveth.slack.com/" target="_blank"><i className="fa fa-slack fa-size"></i></a>
-								</li>
-							</center>
-						</section>
 					</div>
 				</div>
 			</container>

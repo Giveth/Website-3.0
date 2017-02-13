@@ -2,10 +2,10 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 var Home = require('./components/homePage');
-var Header = require('./components/common/header');
+var Community = require('./components/community/communityPage');
 var Solution = require('./components/solution/solutionPage');
 var Dapp = require('./components/dapp/dappPage');
-var Blog = require('./components/blog/blogPage');
+var Campaign = require('./components/campaign/campaignPage');
 {/* var French = require('./components/french/frenchPage'); */}
 
 (function(win) {
@@ -14,16 +14,16 @@ var Blog = require('./components/blog/blogPage');
 	render: function() {
 		var Child;
 		switch(this.props.route) {
+			case 'community': Child = Community; break;
 			case 'solution': Child = Solution; break;
 			case 'dapp': Child = Dapp; break;
-			case 'blog': Child = Blog; break;
+			case 'campaign': Child = Campaign; break;
 			{/* case 'french': Child = French; break; */}
 			default: Child = Home;
 		}
 
 		return (
 			<div className="main">
-				<Header/>
 				<Child/>
 			</div>
 		);

@@ -1,19 +1,40 @@
 .main {
-  text-align: justify;
-  font-family: Exo;
+  font-family: 'Droid Sans', serif;
 }
 p,
 li {
-  font-size: 18px;
+  font-size: 16px;
 }
-.navbar-default {
-  background-color: #ecebe6;
+.about-text ul {
+  padding-left: 16px;
 }
-.navbar-nav .navbar-brand {
-  font-family: Amaranth, sans-serif;
-  font-size: 24px;
+.about-text li {
+  list-style: none;
 }
-.flag {
+.about-text li:before {
+  font-family: FontAwesome;
+  content: "\f192";
+  color: #74b728;
+  font-size: 11px;
+  padding-right: 8px;
+}
+.navbar {
+  background-color: transparent;
+}
+.navbar .nav li > a {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: white;
+}
+.navbar .nav li > a:hover {
+  color: white;
+  background-color: #21a2ef;
+  border-radius: 16px;
+}
+.nav li > a.join {
+  color: #777;
+}
+.navbar .flag {
   height: 20px;
 }
 .row {
@@ -24,21 +45,28 @@ li {
   border-bottom: 1px solid #e7e7e7;
 }
 .intro {
-  padding-bottom: 48px;
-  margin-bottom: 16px;
+  background-image: url("/images/background.png");
+}
+.intro h3 {
+  color: white;
 }
 .intro-logo {
   background-image: url("/images/logo.svg");
   background-repeat: no-repeat;
+  background-position: center;
   height: 400px;
 }
 .intro-text {
-  text-align: center;
+  text-align: right;
   margin: 20% 0;
 }
-strong {
-  font-weight: bold;
-  color: #74b728;
+.intro-text p {
+  font-size: 18px;
+}
+.works p {
+  margin-top: 16px;
+  font-size: 14px;
+  color: #777;
 }
 .infographic {
   display: block;
@@ -46,23 +74,57 @@ strong {
   width: 95%;
   border-radius: 4px;
 }
+strong {
+  font-weight: bold;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Droid Serif', sans-serif;
+}
 h1 {
+  color: white;
   font-family: Amaranth, sans-serif;
 }
 h2 {
-  font-family: Titillium, sans-serif;
-  font-size: 22px;
+  color: #74b728;
+  font-size: 32px;
+  text-align: center;
+  margin: -30px 0 48px;
+}
+h3 {
+  font-size: 26px;
   margin: 16px 0 24px;
+  color: #777;
+}
+.explanation {
+  font-size: 22px;
+  font-family: 'Droid Serif', sans-serif;
+  color: #777;
+  text-align: center;
+}
+.explanation-paragraph {
+  text-align: center;
+}
+.about-pic {
+  margin-top: 64px;
+  border-radius: 4px;
+}
+.why {
+  color: white;
+  font-size: 30px;
 }
 .solution {
   margin-top: -24px;
 }
+.small-logo {
+  max-height: 80px;
+}
 .grey {
-  background-color: #ecebe6;
+  background-color: #f3f3f3;
 }
 .slack-icon {
-  width: 10%;
-  margin-bottom: 24px;
+  margin-top: 72px;
 }
 .btn-row {
   margin: 36px 0 -24px;
@@ -70,10 +132,12 @@ h2 {
 .btn,
 .btn-embossed,
 .btn-primary {
-  font-family: Titillium, sans-serif;
-  background-color: #21a2ef;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #777;
+  background-color: #99ecfe;
+  border-radius: 8px;
   margin-bottom: 8px;
-  margin-right: 16px;
 }
 .btn:hover,
 .btn-embossed:hover,
@@ -84,8 +148,9 @@ h2 {
 .btn :active,
 .btn-embossed :active,
 .btn-primary :active {
-  background-color: #ffbd4a;
-  border: 1px solid #ffbd4a;
+  background-color: #21a2ef;
+  border: 1px solid #21a2ef;
+  color: white;
 }
 .react-sanfona-item-title {
   color: #21a2ef;
@@ -108,12 +173,21 @@ h2 {
   padding-bottom: 36px;
 }
 .social a {
-  color: #21a2ef;
-  padding-right: 16px;
+  color: #444;
+  margin-right: 8px;
+  padding: 8px;
+}
+.social a:hover {
+  color: white;
+  background-color: #21a2ef;
+  border-radius: 36px;
 }
 @media screen and (max-width: 1024px) {
   .intro p {
     font-size: 14px;
+  }
+  .intro-logo {
+    margin: -24px auto 36px;
   }
 }
 @media screen and (max-width: 1199px) {
