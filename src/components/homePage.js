@@ -37,9 +37,9 @@ var Home = React.createClass({
 						{/* Introduction */}
 						<div className="row">
 							<div className="intro-text">
-								<h1>GIVETH.io</h1>
+								<h1>Giveth.io</h1>
 								<p>Charitable donation is going through a massive transformation!<br/>
-								We are building communities around the causes you feel most passionate about.</p>
+								Help us build communities around the causes you feel passionate about.</p>
 								<button className="btn btn-primary">Donate</button>
 							</div>
 						</div>
@@ -49,16 +49,17 @@ var Home = React.createClass({
 				<div className="row">
 					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
 						<div className="row">
-							<p className="explanation">Giveth is the next rΞvolution in charitable donation that builds and enables communities around the causes they care about</p>
+							<p className="explanation">Giveth is a rΞvolution in the world of charitable donation, building and empowering communities to make an impact in the causes they care about</p>
 						</div>
 						<div className="row">
 							<div className="col-xs-12 col-md-5 intro-logo">					
 							</div>
 							<div className="col-xs-12 col-md-7 explanation-paragraph">
-								<p>New times demand rethinking and reengineering new ways to distribute <strong>charitable donations.</strong></p>
-								<p>The traditional charitable system has undergone a slow evolution and today is set up to fail.</p>
-								<p>It does not enable direct impact on solving problems; instead, it provides a short-term, one fits-all, fixes that, most often than not, sees the recurrence of the problem. Moreover, emerging benevolent societies seek different ways of enabling positive impact, we call these societies <strong>Unicorns</strong>.</p>
-								<p>Giveth is stepping up to build a new donation mechanism to the charitable landscape and allowing for a new operating system to facilitate this exchange between donors and change makers, namely <strong>Donation 3.0</strong></p>
+								<p>New technologies enable us to rethink and reengineer new ways to distribute <strong>charitable donations.</strong></p>
+								<p>The traditional charitable system has undergone a slow evolution and is out of date and out of touch.</p>
+								<p>It too often provides short-term, one-size-fits-all solutions that fail address the root causes of the problems they are trying to solve.</p>
+								<p>The Giveth community is building a new system, using Ethereum smart contracts, that will radically shift the way people think charity can and should work. Instead of a large centralized organization taking money from donors and paying people to make a change, donors are able to directly connect to the change makers on the ground. </p>
+								<p>Creative solutions to global issues will be able to emerge in a decentralized, local fashion, and the ones the methods that are successful can be scaled within the particular cause, and, because of the open source nature of this system, across all causes. If a cat charity builds a successful governance structure, a homeless charity can easily modify it for their own use. This is <strong>Donation 3.0</strong>.
 							</div>
 						</div>
 					</div>
