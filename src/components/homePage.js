@@ -37,7 +37,7 @@ var Home = React.createClass({
 						{/* Introduction */}
 						<div className="row">
 							<div className="intro-text">
-								<h1>GIVETH.io</h1>
+								<h1>Giveth.io</h1>
 								<p>Charitable donation is going through a massive transformation!<br/>
 								Help us build communities around the causes you feel passionate about.</p>
 								<button className="btn btn-primary">Donate</button>
