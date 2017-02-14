@@ -6,10 +6,14 @@ var open = require('gulp-open');
 var browserify = require('browserify'); // Bundles JS
 var babelify = require('babelify');  // Transforms React JSX to JS
 var source = require('vinyl-source-stream'); // Use conventional text streams with Gulp
+var buffer = require('vinyl-buffer');
 var concat = require('gulp-concat');
 var lint = require('gulp-eslint');
 var less = require('gulp-less');
 var path = require('path');
+var uglify = require('gulp-uglify');
+var imagemin = require('gulp-imagemin');
+var uncss = require('gulp-uncss');
 
 var config = {
 	port: 9005,
@@ -19,10 +23,7 @@ var config = {
 		js: './src/**/*.js',
 		images: './src/images/*',
 		less: './src/less/**/*.less',
-		css: [
-		'node_modules/bootstrap/dist/css/bootstrap.min.css',
-		'./src/css/*.css'
-		],
+		css: './src/css/*.css',
 		dist: './dist'
 	}
 };
@@ -47,24 +48,22 @@ gulp.task('html', function() {
 		.pipe(connect.reload());
 });
 
+gulp.task('lint', function() {
+	return gulp.src(config.paths.js)
+		.pipe(lint({configFile: '.eslintrc.json'}))
+		.pipe(lint.format());
+});
+
 gulp.task('js', function() {
 	browserify({entries: './src/main.js', extensions: ['.js'], debug: true})
 		.transform(babelify, {presets: ['es2015', 'react']})
 		.bundle()
 		.on('error', console.error.bind(console))
 		.pipe(source('bundle.js'))
+		.pipe(buffer())
+    	.pipe(uglify())
 		.pipe(gulp.dest(config.paths.dist + '/scripts'))
 		.pipe(connect.reload());
-});
-
-gulp.task('fonts', function() {
-    gulp.src('./src/fonts/**/*')
-        .pipe(gulp.dest(config.paths.dist + '/fonts'));
-});
-
-gulp.task('font-awesome', function() {
-    gulp.src('./src/font-awesome/**/*')
-        .pipe(gulp.dest(config.paths.dist + '/font-awesome'));
 });
 
 gulp.task('less', function() {
@@ -84,6 +83,7 @@ gulp.task('css', function() {
 
 gulp.task('images', function() {
     gulp.src(config.paths.images)
+    	.pipe(imagemin())
         .pipe(gulp.dest(config.paths.dist + '/images'));
 
     //publish favicon
@@ -91,10 +91,9 @@ gulp.task('images', function() {
         .pipe(gulp.dest(config.paths.dist));
 });
 
-gulp.task('lint', function() {
-	return gulp.src(config.paths.js)
-		.pipe(lint({configFile: '.eslintrc.json'}))
-		.pipe(lint.format());
+gulp.task('font-awesome', function() {
+    gulp.src('./src/font-awesome/**/*')
+        .pipe(gulp.dest(config.paths.dist + '/font-awesome'));
 });
 
 gulp.task('watch', function() {
@@ -104,6 +103,6 @@ gulp.task('watch', function() {
 	gulp.watch(config.paths.js, ['js', 'lint']);
 });
 
-gulp.task('build', ['html', 'js', 'less', 'css', 'images', 'font-awesome', 'fonts']);
+gulp.task('build', ['html', 'js', 'less', 'css', 'images', 'font-awesome']);
 
-gulp.task('default', ['html', 'js', 'fonts', 'less', 'css', 'images', 'lint', 'open', 'watch']);
+gulp.task('default', ['html', 'lint', 'js', 'less', 'css', 'images', 'font-awesome', 'open', 'watch']);
