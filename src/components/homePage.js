@@ -44,11 +44,10 @@ var Home = React.createClass({
 							<div className="col-xs-12 col-md-5 intro-logo">					
 							</div>
 							<div className="col-xs-12 col-md-7 explanation-paragraph">
-								<p>New technologies enable us to rethink and reengineer the distribution charitable donations to lower transactions costs and so much more.</p>
-								<p>The traditional charitable system has undergone a slow evolution. It is out of date and out of touch.</p>
-								<p>Too often it provides short-term, one-size-fits-all solutions that fail address the root causes of the problems they are trying to solve.</p>
+								<p>New technologies enable us to rethink and reengineer the distribution of charitable donations to lower transactions costs and so much more.</p>
+								<p>The traditional charitable system has undergone a slow evolution. It is out of date and out of touch. Too often it provides short-term, one-size-fits-all solutions that fail address the root causes of the problems they are trying to solve.</p>
 								<p>The Giveth community is building a new system, using Ethereum smart contracts, that will radically shift the way people think charity can and should work. Instead of a large centralized organization taking money from donors and paying people to make a change, the Giveth Platform allows Donors to directly connect to the Change Makers on the ground in a system where <strong>accountability</strong> and <strong>transparency</strong> are the default. </p>
-								<p>With this decentralization creative solutions to global issues will emerge with a local focus, and any methods that are successful for one group can spread virally within the particular cause. In fact, because of the open source nature of this system, successful solutions can scale across all causes. If a cat charity builds a successful governance structure, a homelessness charity can easily use it for their own needs. This is <strong>Donation 3.0</strong>.</p>
+								<p>We hope this decentralization will encourage creative solutions to global issues to emerge with a local focus. The methods that are successful for one group can spread virally within the particular cause. In fact, because of the open source nature of this system, successful solutions can scale across all causes. If a cat charity builds a successful governance structure, a homelessness charity can easily use it for their own needs. This is <strong>Donation 3.0</strong>.</p>
 							</div>
 						</div>
 					</div>
@@ -59,15 +58,15 @@ var Home = React.createClass({
 						<div className="row">
 							<div className="col-xs-12 col-md-6 about-text">
 								<h3>About Giveth</h3>
-								<p>The core group is an eclectic mix from the Ethereum and nonprofit worlds that are teaming up to make it easy for anyone to build a global community to fight for a cause. In fact, this core team is using the Giveth Platform to build a community around the Giveth idea itself! If you want to help create the solution, <a href="http://slack.giveth.io/" className="join">join our Slack</a>.</p>
-								<p>The Giveth core team believes:</p>
+								<p>The core of the Giveth Team is an eclectic mix of people from the Ethereum and nonprofit worlds. They are dedicated to building the tools that will make it easy for anyone to build a global community around a cause. In fact, this core team is using the Giveth Platform to build a community around the Giveth idea itself! If you want to help create the solution, <a href="http://slack.giveth.io/" className="join">join our Slack</a>.</p>
+								<p>The Giveth Unicorns believe:</p>
 								<ul>
 									<li>Donating can be simple, fun and effective.</li>
 									<li><strong>Transparency</strong> and <strong>accountability</strong> can be the default.</li>
-									<li>Everyone's ideas on how to make a positive impact can be heard and funded in a decentralized fashion.</li>
+									<li>Every idea has the potential to make a positive impact, and it can be heard and funded in a decentralized fashion.</li>
 									<li>Every Donor can have the ultimate say over how their donation is used.</li>
 									<li>People that want to do good work for their cause can be rewarded for their actions.</li>
-									<li><strong>Real change</strong> and <strong>innovation</strong> comes from the communities that joining together to make the world a better place.</li>
+									<li><strong>Real change</strong> and <strong>innovation</strong> comes about when communities join together to make the world a better place.</li>
 								</ul>
 							</div>
 							<div className="col-xs-12 col-md-6">	
@@ -84,9 +83,9 @@ var Home = React.createClass({
 								<h3 className="why">Why Giveth?</h3>
 							</div>
 							<div className="col-xs-12 col-md-7">
-								<p>The charitable system is slowly evolving and starting to integrate blockchain technology for its frictionless, global, transparent transactions. But Giveth is <strong>leap frogging</strong> this slow integration, taking it to the next level, enabling decentralized organizations to form, and participants to interact with each other in a safe, trustless manner using smart contracts.</p>
-								<p>Giveth's smart contracts automate accounting, international fund distribution, and many other services that are usually done by large charities with economies of scale.</p>
-								<p>At the same time, these smart contracts also enable donors and change makers to work together to crowdsource powerful solutions and give these organizations the flexibility to develop their own unique governance and incentive structures to bring more impact for their given resources.</p>
+								<p>The charitable system is slowly evolving and starting to integrate blockchain technology for its frictionless, global, transparent transactions. But Giveth is <strong>leap frogging</strong> this slow integration, taking it to the next level, enabling Donors and Change Makers to interact with each other directly in a safe, trustless manner using a foundation of smart contracts to form Decentralized Charitable Organizations.</p>
+								<p>Giveth's DCOs accounting, international fund distribution, and many other services that are usually done by large charities because of economies of scale.</p>
+								<p>At the same time, these DCOs also enable Donors and Change Makers to work together to crowdsource powerful solutions under their own unique governance and incentive structures to bring more impact for their unique set of resources.</p>
 							</div>
 						</div>
 					</div>
@@ -98,8 +97,8 @@ var Home = React.createClass({
 							<img src="/images/unicorn profile-transparent.png" alt="Logo" className="img-responsive small-logo"/>
 							<h2>The Giveth Solution</h2>
 							<div className="col-xs-12 col-md-6">
-								<p>Giveth's smart contracts allow donors to take any level of interest they desire. They can tag their donation to send it to a general catagory (e.g. Ethereum Projects) or directly to their favorite Decentralized Charitable Organization. Either way, the Donors will be notified when any portion of their donation is allocated to a Change Maker. </p>
-								<p>Transparency, accountability, communication and efficiency are the default on the Giveth Platform. Change Makers and Donors will be able to exchange ideas and show progress on social media platforms like Slack (for now), but when other DApps like, Status.im, Colony, and Akasha are launched, they will be integrated into the Giveth Platform for an even more integrated user experience.</p>
+								<p>Giveth's smart contracts allow donors to take any level of interest they desire. They can tag their donation to send it to a general catagory (e.g. Ethereum Projects) or directly to their favorite Decentralized Charitable Organization (DCO). Either way, the Donors will be notified when any portion of their donation is allocated to a Change Maker. </p>
+								<p>Transparency, accountability, communication and efficiency are the default on the Giveth Platform. Change Makers and Donors will be able to connect to exchange ideas and show progress on social media platforms like Slack (for now), but when other DApps like, Status.im, Colony, and Akasha are launched, they will be integrated into the Giveth Platform for an even more powerful user experience.</p>
 								<p>Giveth is dedicated to a completely open source development process every step of the way; we will never have a private github repository. We want to enable awesome solutions for <strong>everyone</strong> to use and improve upon.</p>
 								
 							</div>
@@ -122,7 +121,7 @@ var Home = React.createClass({
 								</div>
 								<div className="col-xs-3 col-sm-2">
 									<img src="/images/301245-200.png" alt="" className="img-responsive"/>
-									<p>You go to giveth.io to build or join a Decentralized Charitable Organization (DCO).</p>
+									<p>You go to Giveth.io to build or join a Decentralized Charitable Organization (DCO).</p>
 								</div>
 								<div className="col-xs-3 col-sm-2">
 									<img src="/images/244899-200.png" alt="" className="img-responsive"/>
@@ -134,7 +133,7 @@ var Home = React.createClass({
 								</div>
 								<div className="col-xs-3 col-sm-2">
 									<img src="/images/247217-200.png" alt="" className="img-responsive"/>
-									<p>Milestones are reviewed and approved for funding by Donors. After the milestone has been completed the funds get released to the Change Makers.</p>
+									<p>Milestones are reviewed and approved for funding by Donors. After the milestone has been completed the funds are released to the Change Makers.</p>
 								</div>
 								<div className="col-xs-3 col-sm-2">
 									<img src="/images/unicorn profile-transparent.png" alt="" className="img-responsive"/>
@@ -149,7 +148,7 @@ var Home = React.createClass({
 						<div className="col-xs-10">
 							<h3>Join the Giveth Community!</h3>
 							<p>We are actively seeking collaborators and like-minded, autonomous partners to make this vision a reality.</p>
-							<p>If you want to work on a versatile smart contract platform empowering people to make a <strong>real change</strong> in this world get on our Slack and tell us how you can help. We are well funded, so if you have an idea for a milestone that can improve the Giveth Platform, propose it and join team. See you on the Slack.</p>
+							<p>If you want to work on a versatile smart contract platform empowering people to make a <strong>real change</strong> in this world, join our Slack (TODO: ADD A LINK TO THE SLACK) and tell us how you can help. We are well funded, so if you have an idea for a milestone that can improve the Giveth Platform, propose it and join team. See you on the Slack.</p>
 						</div>
 						<div className="col-xs-2">
 							<a href="http://slack.giveth.io/" target="_blank"><img src="images/Slack-App-Icon.png" alt="Slack" className="slack-icon img-responsive"/></a>
