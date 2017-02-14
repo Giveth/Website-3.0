@@ -96,7 +96,7 @@ var Home = React.createClass({
 							<div className="col-xs-12 col-md-7">
 								<p>Giveth is non-profit, dedicated to a completely open source development process every step of the way, we want to enable awesome solutions and for <strong>anyone</strong> to use.</p>
 								<p>It is time the charitable system evolves and integrates blockchain technology to enable frictionless, global, <strong>transparent</strong> peer-to-peer donations.</p>
-								<p>Giveths smart contracts reward good people for doing good deeds, so you know <strong>exactly</strong> what impact your donation had.</p>
+								<p>Giveth's smart contracts reward good people for doing good deeds, so you know <strong>exactly</strong> what impact your donation had.</p>
 							</div>
 						</div>
 					</div>
