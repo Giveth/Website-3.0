@@ -20,7 +20,6 @@ var config = {
 		images: './src/images/*',
 		less: './src/less/**/*.less',
 		css: [
-		'./src/css/fonts.css',
 		'node_modules/bootstrap/dist/css/bootstrap.min.css',
 		'./src/css/*.css'
 		],
@@ -104,5 +103,7 @@ gulp.task('watch', function() {
 	gulp.watch(config.paths.css, ['css']);
 	gulp.watch(config.paths.js, ['js', 'lint']);
 });
+
+gulp.task('build', ['html', 'js', 'less', 'css', 'images', 'font-awesome', 'fonts']);
 
 gulp.task('default', ['html', 'js', 'fonts', 'less', 'css', 'images', 'lint', 'open', 'watch']);
