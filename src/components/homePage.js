@@ -117,11 +117,11 @@ var Home = React.createClass({
 							<div className="row">
 								<div className="col-xs-3 col-sm-2">
 									<img src="/images/353400-200.png" alt="" className="img-responsive"/>
-									<p>You have a change that you want to see in the world, anything from improving the Ethereum Virtual Machine to ending homelessness in Paris.</p>
+									<p>You want to make the world a better place in some way, big or small.</p>
 								</div>
 								<div className="col-xs-3 col-sm-2">
 									<img src="/images/301245-200.png" alt="" className="img-responsive"/>
-									<p>You go to Giveth.io to build or join a Decentralized Charitable Organization (DCO).</p>
+									<p>You go to Giveth.io to build or join a Decentralized Charitable Organization (DCO) around this idea.</p>
 								</div>
 								<div className="col-xs-3 col-sm-2">
 									<img src="/images/244899-200.png" alt="" className="img-responsive"/>
@@ -133,7 +133,7 @@ var Home = React.createClass({
 								</div>
 								<div className="col-xs-3 col-sm-2">
 									<img src="/images/247217-200.png" alt="" className="img-responsive"/>
-									<p>Milestones are reviewed and approved for funding by Donors. After the milestone has been completed the funds are released to the Change Makers.</p>
+									<p>Milestones are approved for funding by Donors and funds are released to the Change Makers upon completion.</p>
 								</div>
 								<div className="col-xs-3 col-sm-2">
 									<img src="/images/unicorn profile-transparent.png" alt="" className="img-responsive"/>
