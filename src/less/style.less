@@ -1,11 +1,8 @@
 // Custom styles
 
-@bg-green: #99b83c;
-@green: #74b728;
-@blue: #21a2ef;
-@light-blue: #99ecfe;
+@green: #99b83c;
+@blue: #0093c9;
 @orange: #ffbd4a;
-@cream: #fffad1;
 @grey: #777;
 
 
@@ -82,13 +79,13 @@ p a {
 
 .coloured {
 	background: rgba(33,162,239,1);
-	background: -moz-linear-gradient(-45deg, rgba(33,162,239,1) 0%, rgba(116,183,40,1) 100%);
-	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(33,162,239,1)), color-stop(100%, rgba(116,183,40,1)));
-	background: -webkit-linear-gradient(-45deg, rgba(33,162,239,1) 0%, rgba(116,183,40,1) 100%);
-	background: -o-linear-gradient(-45deg, rgba(33,162,239,1) 0%, rgba(116,183,40,1) 100%);
-	background: -ms-linear-gradient(-45deg, rgba(33,162,239,1) 0%, rgba(116,183,40,1) 100%);
-	background: linear-gradient(135deg, rgba(33,162,239,1) 0%, rgba(116,183,40,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21a2ef', endColorstr='#74b728', GradientType=1 );
+	background: -moz-linear-gradient(-45deg, rgba(33,162,239,1) 0%, rgba(153,184,60,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(33,162,239,1)), color-stop(100%, rgba(153,184,60,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(33,162,239,1) 0%, rgba(153,184,60,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(33,162,239,1) 0%, rgba(153,184,60,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(33,162,239,1) 0%, rgba(153,184,60,1) 100%);
+	background: linear-gradient(135deg, rgba(33,162,239,1) 0%, rgba(153,184,60,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21a2ef', endColorstr='#99b83c', GradientType=1 );
 	h3, p {
 		color: white;
 	}
@@ -134,7 +131,7 @@ h1, h2, h3 {
 }
 
 h1 {
-	color: #777;
+	color: @grey;
 	.io {
 		color: #aaa;
 	}
@@ -165,8 +162,11 @@ h3 {
 	padding-top: 48px;
 }
 
+.ep1 {
+	padding-top: 25%;
+}
+
 .about-pic {
-	margin-top: 64px;
 	border-radius: 4px;
 }
 
@@ -176,6 +176,7 @@ h3 {
 
 .small-logo {
 	max-height: 80px;
+	margin: 0 15%;
 }
 
 .grey {
@@ -184,20 +185,6 @@ h3 {
 
 .slack-icon {
 	margin-top: 72px;
-}
-
-.btn, .btn-primary {
-	text-transform: uppercase;
-	font-weight: bold;
-	color: @grey;
-	background-color: @light-blue;
-	border-radius: 8px;
-	margin-bottom: 8px;
-	&:hover,:focus,:active {
-		background-color: @blue;
-		border: 1px solid @blue;
-		color: white;
-	}
 }
 
 .social a {

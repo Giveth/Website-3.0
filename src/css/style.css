@@ -14,7 +14,7 @@ li {
 .about-text li:before {
   font-family: FontAwesome;
   content: "\f192";
-  color: #74b728;
+  color: #99b83c;
   font-size: 11px;
   padding-right: 8px;
 }
@@ -24,11 +24,11 @@ li {
 .navbar .nav li > a {
   font-size: 16px;
   text-transform: uppercase;
-  color: #21a2ef;
+  color: #0093c9;
 }
 .navbar .nav li > a:hover {
   color: white;
-  background-color: #21a2ef;
+  background-color: #0093c9;
   border-radius: 16px;
 }
 .nav li > a.join {
@@ -37,10 +37,10 @@ li {
 p a {
   text-decoration: underline;
   font-weight: bold;
-  color: #21a2ef;
+  color: #0093c9;
 }
 p a:hover {
-  color: #74b728;
+  color: #99b83c;
 }
 .flag {
   height: 20px;
@@ -60,13 +60,13 @@ p a:hover {
 }
 .coloured {
   background: #21a2ef;
-  background: -moz-linear-gradient(-45deg, #21a2ef 0%, #74b728 100%);
-  background: -webkit-gradient(left top, right bottom, color-stop(0%, #21a2ef), color-stop(100%, #74b728));
-  background: -webkit-linear-gradient(-45deg, #21a2ef 0%, #74b728 100%);
-  background: -o-linear-gradient(-45deg, #21a2ef 0%, #74b728 100%);
-  background: -ms-linear-gradient(-45deg, #21a2ef 0%, #74b728 100%);
-  background: linear-gradient(135deg, #21a2ef 0%, #74b728 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#21a2ef', endColorstr='#74b728', GradientType=1);
+  background: -moz-linear-gradient(-45deg, #21a2ef 0%, #99b83c 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #21a2ef), color-stop(100%, #99b83c));
+  background: -webkit-linear-gradient(-45deg, #21a2ef 0%, #99b83c 100%);
+  background: -o-linear-gradient(-45deg, #21a2ef 0%, #99b83c 100%);
+  background: -ms-linear-gradient(-45deg, #21a2ef 0%, #99b83c 100%);
+  background: linear-gradient(135deg, #21a2ef 0%, #99b83c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#21a2ef', endColorstr='#99b83c', GradientType=1);
 }
 .coloured h3,
 .coloured p {
@@ -113,7 +113,7 @@ h1 .io {
   color: #aaa;
 }
 h2 {
-  color: #74b728;
+  color: #99b83c;
   font-size: 32px;
   text-align: center;
   margin: -30px 0 48px;
@@ -133,8 +133,10 @@ h3 {
   text-align: justify;
   padding-top: 48px;
 }
+.ep1 {
+  padding-top: 25%;
+}
 .about-pic {
-  margin-top: 64px;
   border-radius: 4px;
 }
 .solution {
@@ -142,31 +144,13 @@ h3 {
 }
 .small-logo {
   max-height: 80px;
+  margin: 0 15%;
 }
 .grey {
   background-color: #f9f9f9;
 }
 .slack-icon {
   margin-top: 72px;
-}
-.btn,
-.btn-primary {
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #777;
-  background-color: #99ecfe;
-  border-radius: 8px;
-  margin-bottom: 8px;
-}
-.btn:hover,
-.btn-primary:hover,
-.btn :focus,
-.btn-primary :focus,
-.btn :active,
-.btn-primary :active {
-  background-color: #21a2ef;
-  border: 1px solid #21a2ef;
-  color: white;
 }
 .social a {
   color: #444;
@@ -175,7 +159,7 @@ h3 {
 }
 .social a:hover {
   color: white;
-  background-color: #21a2ef;
+  background-color: #0093c9;
   border-radius: 36px;
 }
 .footer {

@@ -49,8 +49,10 @@ var Home = React.createClass({
 							<div className="col-xs-12 col-md-6 logo">					
 							</div>
 							<div className="col-xs-12 col-md-6 explanation-paragraph">
-								<p>New technologies enable us to rethink and reengineer the distribution of charitable donations to lower transactions costs and so much more.</p>
-								<p>The traditional charitable system has undergone a slow evolution. It is out of date and out of touch. Too often it provides short-term, one-size-fits-all solutions that fail address the root causes of the problems they are trying to solve.</p>
+								<div className="ep1">
+									<p>New technologies enable us to rethink and reengineer the distribution of charitable donations to lower transactions costs and so much more.</p>
+									<p>The traditional charitable system has undergone a slow evolution. It is out of date and out of touch. Too often it provides short-term, one-size-fits-all solutions that fail address the root causes of the problems they are trying to solve.</p>
+								</div>
 							</div>
 						</div>
 						<div className="row">
@@ -67,9 +69,11 @@ var Home = React.createClass({
 				<div className="row grey">
 					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
 						<div className="row">
+							<h3>About Giveth</h3>
+							<p>The core of the Giveth Team is an eclectic mix of people from the Ethereum and nonprofit worlds. They are dedicated to building the tools that will make it easy for anyone to build a global community around a cause. In fact, this core team is using the Giveth Platform to build a community around the Giveth idea itself! If you want to help create the solution, <a href="http://slack.giveth.io/" target="_blank">join our Slack</a>.</p>
+						</div>
+						<div className="row">
 							<div className="col-xs-12 col-md-6 about-text">
-								<h3>About Giveth</h3>
-								<p>The core of the Giveth Team is an eclectic mix of people from the Ethereum and nonprofit worlds. They are dedicated to building the tools that will make it easy for anyone to build a global community around a cause. In fact, this core team is using the Giveth Platform to build a community around the Giveth idea itself! If you want to help create the solution, <a href="http://slack.giveth.io/" target="_blank">join our Slack</a>.</p>
 								<p>The Giveth Unicorns believe:</p>
 								<ul>
 									<li>Donating can be simple, fun and effective.</li>
@@ -168,8 +172,8 @@ var Home = React.createClass({
 				</div>
 				<div className="row coloured">
 					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2 footer">
+					<center>
 						<h3>Want to see what we are up to these days?</h3>
-						<center>
 							<li className="social"> 
 								<a href="https://www.facebook.com/givethio/" target="_blank"><i className="fa fa-facebook fa-size"></i></a>
 								<a href="https://twitter.com/Givethio" target="_blank"><i className="fa fa-twitter fa-size"></i></a> 
@@ -177,7 +181,7 @@ var Home = React.createClass({
 								<a href="https://medium.com/giveth" target="_blank"><i className="fa fa-medium fa-size"></i></a>
 								<a href="http://slack.giveth.io/" target="_blank"><i className="fa fa-slack fa-size"></i></a>
 							</li>
-						</center>
+					</center>
 					</div>
 				</div>
 			</container>
