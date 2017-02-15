@@ -40,7 +40,7 @@ var Home = React.createClass({
 				{/* Logo and explanation */}
 				<div className="row coloured">
 					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
-						<p className="baseline">The Giveth Platform is a rΞvolution in the world of charitable donation, building and empowering communities is the new way to make a difference!</p>
+						<p className="baseline">The Giveth Platform is a rΞvolution in the world of charitable donation, building and empowering communities and enabling new ways to make a difference!</p>
 					</div>
 				</div>
 				<div className="row">
