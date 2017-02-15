@@ -41,12 +41,18 @@ var Home = React.createClass({
 							<p className="explanation">The Giveth Platform is a rΞvolution in the world of charitable donation, building and empowering communities to make an impact in the causes they care about!</p>
 						</div>
 						<div className="row">
-							<div className="col-xs-12 col-md-5 intro-logo">					
+							<div className="col-xs-12 col-md-6 intro-logo">					
 							</div>
-							<div className="col-xs-12 col-md-7 explanation-paragraph">
+							<div className="col-xs-12 col-md-6 explanation-paragraph">
 								<p>New technologies enable us to rethink and reengineer the distribution of charitable donations to lower transactions costs and so much more.</p>
 								<p>The traditional charitable system has undergone a slow evolution. It is out of date and out of touch. Too often it provides short-term, one-size-fits-all solutions that fail address the root causes of the problems they are trying to solve.</p>
+							</div>
+						</div>
+						<div className="row">
+							<div className="col-xs-12 col-md-6 explanation-paragraph">
 								<p>The Giveth community is building a new system, using Ethereum smart contracts, that will radically shift the way people think charity can and should work. Instead of a large centralized organization taking money from donors and paying people to make a change, the Giveth Platform allows Donors to directly connect to the Change Makers on the ground in a system where <strong>accountability</strong> and <strong>transparency</strong> are the default. </p>
+							</div>
+							<div className="col-xs-12 col-md-6 explanation-paragraph">
 								<p>We hope this decentralization will encourage creative solutions to global issues to emerge with a local focus. The methods that are successful for one group can spread virally within the particular cause. In fact, because of the open source nature of this system, successful solutions can scale across all causes. If a cat charity builds a successful governance structure, a homelessness charity can easily use it for their own needs. This is <strong>Donation 3.0</strong>.</p>
 							</div>
 						</div>
@@ -58,7 +64,7 @@ var Home = React.createClass({
 						<div className="row">
 							<div className="col-xs-12 col-md-6 about-text">
 								<h3>About Giveth</h3>
-								<p>The core of the Giveth Team is an eclectic mix of people from the Ethereum and nonprofit worlds. They are dedicated to building the tools that will make it easy for anyone to build a global community around a cause. In fact, this core team is using the Giveth Platform to build a community around the Giveth idea itself! If you want to help create the solution, <a href="http://slack.giveth.io/" className="join">join our Slack</a>.</p>
+								<p>The core of the Giveth Team is an eclectic mix of people from the Ethereum and nonprofit worlds. They are dedicated to building the tools that will make it easy for anyone to build a global community around a cause. In fact, this core team is using the Giveth Platform to build a community around the Giveth idea itself! If you want to help create the solution, <a href="http://slack.giveth.io/" target="_blank">join our Slack</a>.</p>
 								<p>The Giveth Unicorns believe:</p>
 								<ul>
 									<li>Donating can be simple, fun and effective.</li>
@@ -104,7 +110,7 @@ var Home = React.createClass({
 							</div>
 							<div className="col-xs-12 col-md-6">
 								<p>Change Makers will be encouraged to use our current Milestone Tracker Contract, where donations are only collected upon the completion of pre-arranged milestones. This creates a <strong>result-focused incentive structure</strong> naturally aligning everyone's intentions.</p>
-								<p>The Giveth core team has completed v0.1 of Giveth's <strong>[DApp (Donation Application)](TODO: ADD LINK TO UI)</strong> using our own system.  This means there is complete transparency on how the donations sent to the Giveth Platform have been used. #dogfooding</p>
+								<p>The Giveth core team has completed v0.1 of Giveth's <strong><a href="/#dapp">DApp (Donation Application)</a></strong> using our own system.  This means there is complete transparency on how the donations sent to the Giveth Platform have been used. #dogfooding</p>
 								<p>Our current DApp is still in the early prototype stage and focuses on the distribution of funds to the change makers. We are currently developing v0.2 which will include ERC 20 tokens and a liquid democracy enabled donation tagging system.</p>
 							</div>
 						</div>
@@ -148,7 +154,7 @@ var Home = React.createClass({
 						<div className="col-xs-10">
 							<h3>Join the Giveth Community!</h3>
 							<p>We are actively seeking collaborators and like-minded, autonomous partners to make this vision a reality.</p>
-							<p>If you want to work on a versatile smart contract platform empowering people to make a <strong>real change</strong> in this world, join our Slack (TODO: ADD A LINK TO THE SLACK) and tell us how you can help. We are well funded, so if you have an idea for a milestone that can improve the Giveth Platform, propose it and join team. See you on the Slack.</p>
+							<p>If you want to work on a versatile smart contract platform empowering people to make a <strong>real change</strong> in this world, <a href="http://slack.giveth.io/" target="_blank">join our Slack</a> and tell us how you can help. We are well funded, so if you have an idea for a milestone that can improve the Giveth Platform, propose it and join team. See you on the Slack.</p>
 						</div>
 						<div className="col-xs-2">
 							<a href="http://slack.giveth.io/" target="_blank"><img src="images/Slack-App-Icon.png" alt="Slack" className="slack-icon img-responsive"/></a>

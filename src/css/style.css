@@ -3,7 +3,7 @@
 }
 p,
 li {
-  font-size: 16px;
+  font-size: 15px;
 }
 .about-text ul {
   padding-left: 16px;
@@ -34,7 +34,15 @@ li {
 .nav li > a.join {
   color: #777;
 }
-.navbar .flag {
+p a {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #21a2ef;
+}
+p a:hover {
+  color: #74b728;
+}
+.flag {
   height: 20px;
 }
 .row {
@@ -68,6 +76,9 @@ li {
   font-size: 14px;
   color: #777;
 }
+.works img {
+  max-width: 75%;
+}
 .infographic {
   display: block;
   margin: 8px auto 16px;
@@ -80,11 +91,10 @@ strong {
 h1,
 h2,
 h3 {
-  font-family: 'Droid Serif', sans-serif;
+  font-family: Exo, sans-serif;
 }
 h1 {
   color: white;
-  font-family: Exo, sans-serif;
 }
 h2 {
   color: #74b728;
@@ -99,12 +109,12 @@ h3 {
 }
 .explanation {
   font-size: 22px;
-  font-family: 'Droid Serif', sans-serif;
+  font-family: Exo, sans-serif;
   color: #777;
   text-align: center;
 }
 .explanation-paragraph {
-  text-align: center;
+  text-align: justify;
   padding-top: 48px;
 }
 .about-pic {
