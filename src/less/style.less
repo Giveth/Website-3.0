@@ -38,7 +38,7 @@ p, li {
 	.nav li > a {
 		font-size: 16px;
 		text-transform: uppercase;
-		color: white;
+		color: @blue;
 		&:hover {
 			color: white;
 			background-color: @blue;
@@ -73,14 +73,28 @@ p a {
 	border-bottom: 1px solid #e7e7e7;
 }
 
-.intro {
-	background-image: url("/images/background.png");
-	h3 {
+.intro-pic {
+	background-image: url("/images/1.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 400px;
+}
+
+.coloured {
+	background: rgba(33,162,239,1);
+	background: -moz-linear-gradient(-45deg, rgba(33,162,239,1) 0%, rgba(116,183,40,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(33,162,239,1)), color-stop(100%, rgba(116,183,40,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(33,162,239,1) 0%, rgba(116,183,40,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(33,162,239,1) 0%, rgba(116,183,40,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(33,162,239,1) 0%, rgba(116,183,40,1) 100%);
+	background: linear-gradient(135deg, rgba(33,162,239,1) 0%, rgba(116,183,40,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21a2ef', endColorstr='#74b728', GradientType=1 );
+	h3, p {
 		color: white;
 	}
 }
 
-.intro-logo {
+.logo {
 	background-image: url("/images/logo.svg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -88,8 +102,7 @@ p a {
 }
 
 .intro-text {
-	text-align: right;
-	margin: 20% 0;
+	text-align: center;
 	p {
 		font-size: 18px;
 	}
@@ -121,7 +134,10 @@ h1, h2, h3 {
 }
 
 h1 {
-	color: white;
+	color: #777;
+	.io {
+		color: #aaa;
+	}
 }
 
 h2 {
@@ -137,10 +153,10 @@ h3 {
 	color: @grey;
 }
 
-.explanation {
+.baseline {
 	font-size: 22px;
 	font-family: Exo, sans-serif;
-	color: @grey;
+	color: white;
 	text-align: center;
 }
 
@@ -154,11 +170,6 @@ h3 {
 	border-radius: 4px;
 }
 
-.why {
-	color: white;
-	font-size: 30px;
-}
-
 .solution {
 	margin-top: -24px;
 }
@@ -168,18 +179,14 @@ h3 {
 }
 
 .grey {
-	background-color: #f3f3f3;
+	background-color: #f9f9f9;
 }
 
 .slack-icon {
 	margin-top: 72px;
 }
 
-.btn-row {
-	margin: 36px 0 -24px;
-}
-
-.btn, .btn-embossed, .btn-primary {
+.btn, .btn-primary {
 	text-transform: uppercase;
 	font-weight: bold;
 	color: @grey;
@@ -191,27 +198,6 @@ h3 {
 		border: 1px solid @blue;
 		color: white;
 	}
-}
-
-.react-sanfona-item-title {
-	color: @blue;
-	font-size: 16px;
-	padding: 8px;
-	border: 1px solid #e7e7e7;
-	border-radius: 2px;
-	&:hover,:focus,:active {
-		color: @orange;
-		border: 1px solid @orange;
-	}
-}
-
-.react-sanfona-item-body-wrapper {
-	padding: 16px;
-	line-height: 1.42;
-}
-
-.accordion {
-	padding-bottom: 36px;
 }
 
 .social a {

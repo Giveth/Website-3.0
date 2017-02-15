@@ -7,7 +7,7 @@ var Home = React.createClass({
 		return (
 			<container>
 				{/* Introduction with name and baseline */}
-				<div className="row intro">
+				<div className="row">
 					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
 						{/* Navigation */}
 						<nav className="navbar navbar-default">
@@ -25,23 +25,28 @@ var Home = React.createClass({
 						</nav>
 						{/* Introduction */}
 						<div className="row">
+							<div className="intro-pic">
+							</div>
+						</div>
+						<div className="row">
 							<div className="intro-text">
-								<h1>Giveth.io</h1>
+								<h1>Giveth<span className="io">.io</span></h1>
 								<p>Charitable donation is going through a massive transformation!<br/>
 								Join us to build communities around the causes you feel passionate about.</p>
-								<button className="btn btn-primary">Donate</button>
 							</div>
 						</div>
 					</div>
 				</div>
 				{/* Logo and explanation */}
+				<div className="row coloured">
+					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
+						<p className="baseline">The Giveth Platform is a rΞvolution in the world of charitable donation, building and empowering communities to make an impact in the causes they care about!</p>
+					</div>
+				</div>
 				<div className="row">
 					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
 						<div className="row">
-							<p className="explanation">The Giveth Platform is a rΞvolution in the world of charitable donation, building and empowering communities to make an impact in the causes they care about!</p>
-						</div>
-						<div className="row">
-							<div className="col-xs-12 col-md-6 intro-logo">					
+							<div className="col-xs-12 col-md-6 logo">					
 							</div>
 							<div className="col-xs-12 col-md-6 explanation-paragraph">
 								<p>New technologies enable us to rethink and reengineer the distribution of charitable donations to lower transactions costs and so much more.</p>
@@ -82,7 +87,7 @@ var Home = React.createClass({
 					</div>
 				</div>
 				{/* Why Giveth ? */}
-				<div className="row intro">
+				<div className="row coloured">
 					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
 						<div className="row">
 							<div className="col-xs-12 col-md-5">
@@ -161,7 +166,7 @@ var Home = React.createClass({
 						</div>
 					</div>
 				</div>
-				<div className="row intro">
+				<div className="row coloured">
 					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2 footer">
 						<h3>Want to see what we are up to these days?</h3>
 						<center>

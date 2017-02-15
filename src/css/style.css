@@ -24,7 +24,7 @@ li {
 .navbar .nav li > a {
   font-size: 16px;
   text-transform: uppercase;
-  color: white;
+  color: #21a2ef;
 }
 .navbar .nav li > a:hover {
   color: white;
@@ -52,21 +52,34 @@ p a:hover {
   padding-bottom: 36px;
   border-bottom: 1px solid #e7e7e7;
 }
-.intro {
-  background-image: url("/images/background.png");
+.intro-pic {
+  background-image: url("/images/1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
 }
-.intro h3 {
+.coloured {
+  background: #21a2ef;
+  background: -moz-linear-gradient(-45deg, #21a2ef 0%, #74b728 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #21a2ef), color-stop(100%, #74b728));
+  background: -webkit-linear-gradient(-45deg, #21a2ef 0%, #74b728 100%);
+  background: -o-linear-gradient(-45deg, #21a2ef 0%, #74b728 100%);
+  background: -ms-linear-gradient(-45deg, #21a2ef 0%, #74b728 100%);
+  background: linear-gradient(135deg, #21a2ef 0%, #74b728 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#21a2ef', endColorstr='#74b728', GradientType=1);
+}
+.coloured h3,
+.coloured p {
   color: white;
 }
-.intro-logo {
+.logo {
   background-image: url("/images/logo.svg");
   background-repeat: no-repeat;
   background-position: center;
   height: 400px;
 }
 .intro-text {
-  text-align: right;
-  margin: 20% 0;
+  text-align: center;
 }
 .intro-text p {
   font-size: 18px;
@@ -94,7 +107,10 @@ h3 {
   font-family: Exo, sans-serif;
 }
 h1 {
-  color: white;
+  color: #777;
+}
+h1 .io {
+  color: #aaa;
 }
 h2 {
   color: #74b728;
@@ -107,10 +123,10 @@ h3 {
   margin: 16px 0 24px;
   color: #777;
 }
-.explanation {
+.baseline {
   font-size: 22px;
   font-family: Exo, sans-serif;
-  color: #777;
+  color: white;
   text-align: center;
 }
 .explanation-paragraph {
@@ -121,10 +137,6 @@ h3 {
   margin-top: 64px;
   border-radius: 4px;
 }
-.why {
-  color: white;
-  font-size: 30px;
-}
 .solution {
   margin-top: -24px;
 }
@@ -132,16 +144,12 @@ h3 {
   max-height: 80px;
 }
 .grey {
-  background-color: #f3f3f3;
+  background-color: #f9f9f9;
 }
 .slack-icon {
   margin-top: 72px;
 }
-.btn-row {
-  margin: 36px 0 -24px;
-}
 .btn,
-.btn-embossed,
 .btn-primary {
   text-transform: uppercase;
   font-weight: bold;
@@ -151,37 +159,14 @@ h3 {
   margin-bottom: 8px;
 }
 .btn:hover,
-.btn-embossed:hover,
 .btn-primary:hover,
 .btn :focus,
-.btn-embossed :focus,
 .btn-primary :focus,
 .btn :active,
-.btn-embossed :active,
 .btn-primary :active {
   background-color: #21a2ef;
   border: 1px solid #21a2ef;
   color: white;
-}
-.react-sanfona-item-title {
-  color: #21a2ef;
-  font-size: 16px;
-  padding: 8px;
-  border: 1px solid #e7e7e7;
-  border-radius: 2px;
-}
-.react-sanfona-item-title:hover,
-.react-sanfona-item-title :focus,
-.react-sanfona-item-title :active {
-  color: #ffbd4a;
-  border: 1px solid #ffbd4a;
-}
-.react-sanfona-item-body-wrapper {
-  padding: 16px;
-  line-height: 1.42;
-}
-.accordion {
-  padding-bottom: 36px;
 }
 .social a {
   color: #444;
