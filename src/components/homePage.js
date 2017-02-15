@@ -8,7 +8,7 @@ var Home = React.createClass({
 			<container>
 				{/* Introduction with name and baseline */}
 				<div className="row">
-					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
+					<div className="col-xs-12 col-md-8 col-md-offset-2">
 						{/* Navigation */}
 						<nav className="navbar navbar-default">
 							<div className="container-fluid">
@@ -39,12 +39,12 @@ var Home = React.createClass({
 				</div>
 				{/* Logo and explanation */}
 				<div className="row coloured">
-					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
+					<div className="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
 						<p className="baseline">The Giveth Platform is a rΞvolution in the world of charitable donation, building and empowering communities to make an impact in the causes they care about!</p>
 					</div>
 				</div>
 				<div className="row">
-					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
+					<div className="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
 						<div className="row">
 							<div className="col-xs-12 col-md-6 logo">					
 							</div>
@@ -67,7 +67,7 @@ var Home = React.createClass({
 				</div>
 				{/* About Giveth */}
 				<div className="row grey">
-					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
+					<div className="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
 						<div className="row">
 							<h3>About Giveth</h3>
 							<p>The core of the Giveth Team is an eclectic mix of people from the Ethereum and nonprofit worlds. They are dedicated to building the tools that will make it easy for anyone to build a global community around a cause. In fact, this core team is using the Giveth Platform to build a community around the Giveth idea itself! If you want to help create the solution, <a href="http://slack.giveth.io/" target="_blank">join our Slack</a>.</p>
@@ -107,7 +107,7 @@ var Home = React.createClass({
 				</div>
 				{/* The Giveth Solution */}
 				<div className="row">
-					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
+					<div className="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
 						<div className="row">
 							<img src="/images/unicorn profile-transparent.png" alt="Logo" className="img-responsive small-logo"/>
 							<h2>The Giveth Solution</h2>
@@ -159,7 +159,7 @@ var Home = React.createClass({
 				</div>
 				{/* Link to the team's Slack */}
 				<div className="row">
-					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
+					<div className="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
 						<div className="col-xs-10">
 							<h3>Join the Giveth Community!</h3>
 							<p>We are actively seeking collaborators and like-minded, autonomous partners to make this vision a reality.</p>
@@ -171,7 +171,7 @@ var Home = React.createClass({
 					</div>
 				</div>
 				<div className="row coloured">
-					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2 footer">
+					<div className="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 footer">
 					<center>
 						<h3>Want to see what we are up to these days?</h3>
 							<li className="social"> 
