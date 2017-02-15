@@ -142,6 +142,7 @@ var Home = React.createClass({
 								<img src="/images/244899-200.png" alt="" className="img-responsive"/>
 								<p>Like minded people join your community to donate, contribute and promote your DCO.</p>
 							</div>
+							<div className="clearfix visible-md visible-lg"></div>
 							<div className="col-xs-6 col-md-4">
 								<img src="/images/91306-200.png" alt="" className="img-responsive"/>
 								<p>Change Makers come up with solutions to the problems the community is facing and propose milestones.</p>
