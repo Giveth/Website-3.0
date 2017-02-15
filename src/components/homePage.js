@@ -130,27 +130,27 @@ var Home = React.createClass({
 					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
 							<h3>How It Works</h3>
 							<div className="row">
-								<div className="col-xs-3 col-sm-2">
+								<div className="col-xs-6 col-md-4">
 									<img src="/images/353400-200.png" alt="" className="img-responsive"/>
 									<p>You want to make the world a better place in some way, big or small.</p>
 								</div>
-								<div className="col-xs-3 col-sm-2">
+								<div className="col-xs-6 col-md-4">
 									<img src="/images/301245-200.png" alt="" className="img-responsive"/>
 									<p>You go to Giveth.io to build or join a Decentralized Charitable Organization (DCO) around this idea.</p>
 								</div>
-								<div className="col-xs-3 col-sm-2">
+								<div className="col-xs-6 col-md-4">
 									<img src="/images/244899-200.png" alt="" className="img-responsive"/>
 									<p>Like minded people join your community to donate, contribute and promote your DCO.</p>
 								</div>
-								<div className="col-xs-3 col-sm-2">
+								<div className="col-xs-6 col-md-4">
 									<img src="/images/91306-200.png" alt="" className="img-responsive"/>
 									<p>Change Makers come up with solutions to the problems the community is facing and propose milestones.</p>
 								</div>
-								<div className="col-xs-3 col-sm-2">
+								<div className="col-xs-6 col-md-4">
 									<img src="/images/247217-200.png" alt="" className="img-responsive"/>
 									<p>Milestones are approved for funding by Donors and funds are released to the Change Makers upon completion.</p>
 								</div>
-								<div className="col-xs-3 col-sm-2">
+								<div className="col-xs-6 col-md-4">
 									<img src="/images/unicorn profile-transparent.png" alt="" className="img-responsive"/>
 									<p>Another successful action helps to build a better world full of unicorns and rainbows!</p>
 								</div>
