@@ -33,8 +33,23 @@ var French = require('./components/french/frenchPage');
 function render() {
 	var route = win.location.hash.substr(1);
 	ReactDOM.render(<App route={route} />, document.getElementById('app'));
+	
+	// anchor links
+	var communityAnchor = document.getElementById('community-anchor');
+	var solutionAnchor = document.getElementById('solution-anchor');
+	var community = document.getElementById('community');
+	var solution = document.getElementById('solution');
+
+	communityAnchor.onclick = function () {
+		community.scrollIntoView();
+	}
+
+	solutionAnchor.onclick = function () {
+		solution.scrollIntoView();
+	}
 }
 
 win.addEventListener('hashchange', render);
 render();
+
 })(window);

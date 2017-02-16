@@ -13,8 +13,8 @@ var Home = React.createClass({
 						<nav className="navbar navbar-default">
 							<div className="container-fluid">
 								<ul className="nav navbar-nav">
-									<li><a href="/#community">Community</a></li>
-									<li><a href="/#solution">Solution</a></li>
+									<li><a href="#" id="community-anchor">Community</a></li>
+									<li><a href="#" id="solution-anchor">Solution</a></li>
 									<li><a href="/#dapp">Dapp</a></li>
 									<li><a href="/#campaign">Fund a campaign</a></li>
 									<li><a href="https://medium.com/giveth">Blog</a></li>
@@ -106,7 +106,7 @@ var Home = React.createClass({
 					</div>
 				</div>
 				{/* The Giveth Solution */}
-				<div className="row">
+				<div className="row" id="solution">
 					<div className="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
 						<div className="row">
 							<img src="/images/unicorn profile-transparent.png" alt="Logo" className="img-responsive small-logo"/>
@@ -159,7 +159,7 @@ var Home = React.createClass({
 					</div>
 				</div>
 				{/* Link to the team's Slack */}
-				<div className="row">
+				<div className="row" id="community">
 					<div className="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
 						<div className="col-xs-10">
 							<h3>Join the Giveth Community!</h3>
