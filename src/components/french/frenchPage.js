@@ -16,9 +16,9 @@ var Home = React.createClass({
 									<li><a href="/#community">Communauté</a></li>
 									<li><a href="/#solution">Solution</a></li>
 									<li><a href="/#dapp">Dapp</a></li>
-									<li><a href="/#campaign">Financer à une campagne</a></li>
+									<li><a href="/#campaign">Financer une campagne</a></li>
 									<li><a href="https://medium.com/giveth">Blog</a></li>
-									<li><a href="http://giveth.slack.com/" className="join">Rejoignez-nous</a></li>
+									<li><a href="http://slack.giveth.io/" className="join">Rejoignez-nous</a></li>
 									<li><a href="/"><img className="flag float-right" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAEmUlEQVRoQ+2Z/WtbVRjHvzdvy8ua2xhsXbpua9qta7fUjTErG8s2UDbG5j+wKoLIijpfWltFZDqVaTciY0MdiAjdGAxExoov+JMr7BcruCVUT2itlKkwa91N0uamN2munHtyb9PYxR9yUr3QB0ry3HvO9zmf85ybc55bASY3weTjxwrAf53BlQz8HzJgBbAKAP00k80DmKNLyHf48Ht/VXvknwij3EPUD128jwJsOHTo3V/27m1Hf/9jOH36mhGIp38ME1wB5Os3sObLz5ooQOvBg6dIONwGSZrVgqjqQiyBtqB/KrtuEbSvZY220/oVjPon2m3/DlDacakeqgrB40buxzhqT/Zv1gAOHHiH7N69ABCJPI6ensHCIARQv7f3oj4cRCJPoLdnkMEKwPvU1+6rGpzuM48ZvcbbBEFgAI8+8jbpfHgjEgmZTfUiK0y/dq34e7Ffer1YgKXi3LkneY8fBsD+/W+RnTuDGBg4iu7uj41AFy48zc2PhP3cAASXE7nJ2xBf6mYZ2LfvTbJt2wYkEmluQUqFBnCTm7ZF9EK5GUXg228YwJ49J8jWrY1IJukSAi5dOo6urvNGQM0/ep6toOL7dLUJ92hf1J/2OSsQfgDeGiijcay5fpUB7Nr1Otm0KYBUigFUw658yPEhtlgAJQtbwwMMoLPzNRIM1uHy5Rdw5MiAMf6hoVe4+VSLtxkP8Y4dr5LGRj9mZjK8Yxh6X33UxU+bZiCbhX1zC8vA9u39pK5ORDo9pwUZHj6JcPgNI2ClPhW6ghFuAILbhfwff6Lhh2EGEAq9TGprPZBlhVuQUqGrGOamTX9G1UQSa6MjDKCtrYd43Ksw8v0phDr6WCAViMXOoCPUZ+xf0dgZ7b6+bcWiBb/waxSlfqiP7eAqYLRXgRvH2rkBwGYFsjl4n3+KAbS2vkjU4gMQv1CGUjx+lruq8RA3Nx8n2Sw9XjObnPwA69c/y83XNXkTGABNTc+Rqakkb/1FeuMPsZMuL7PUelH3+adsCTU2PkOmp1OYnR2Ex7Ow4fD0R/EFr7FrOla/H+tujzGAQKCb3L07wzVAqdjYOr4FjSB60fDd1wxgfn6eWOjmYCLL5/OwWq0MIJfLEavVXDX9IoAJfyuxKVmoStYUORAcduQcdgSn4ywDP4stxJbPQ80oxpF5UWGm71zlXoMVF3JLtStsdvom+Y+Xmvp9XWep4q+wwWoAdiuapXEGMF4TJHZVhTqnLF1R6nkpDVIuX/eqMosnoxSqWK9MJSs4HcgKAlpSEwxAlmXidDpNsXz0QWYyGbhcLgaQTqeJy+UyFYAsy3C73QzgJ8da4nY4oKarV5HxnB16nE4rCtqUXxnAqL2BrHY6oc5Wr6jnCuBxYyaTwZbsbwUAW4CsdrnMBSDL2JL7nQEkEgni9Xp5TlLVtZLJJERRZACSJBFRFKselGcASZLg8/kYwC1LPfHVmCsDUiqJjvwdDaDllqV+jOfsLJfWg/k7GylAPYAQgPuXKzCnOFMAYhSA/nuppvDJSXtZZOg7oFS549myjKLSICsAlc5gpf1XMlDpDFba3/QZ+Bux0t5Il03uIQAAAABJRU5ErkJggg==" alt="French flag"/></a></li>
 								</ul>
 							</div>
@@ -69,19 +69,19 @@ var Home = React.createClass({
 				<div className="row grey">
 					<div className="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
 						<div className="row">
-							<h3>About Giveth</h3>
-							<p>The Giveth Core Team is an eclectic mix of people from the Ethereum and nonprofit worlds. They are dedicated to building the tools that will make it easy for anyone to build a global community around a cause. In fact, this core team is using the Giveth Platform to build a community around the Giveth idea itself! If you want to help create the solution, <a href="http://slack.giveth.io/" target="_blank">join our Slack</a>.</p>
+							<h3>A propos de Giveth</h3>
+							<p>L'Equipe Giveth est un mélange éclectique de passionnés en provenance des mondes Ethereum et ONG. Ils sont focalisés sur la construction d'outils qui rendront facile pour tous de construire une communauté globale autour d'une cause. Cette équipe utilise la Plateforme Giveth pour construire une communauté autour de l'idée même derrière Giveth ! Si vous voulez participer à créer la solution, <a href="http://slack.giveth.io/" target="_blank">rejoignez notre Slack</a>.</p>
 						</div>
 						<div className="row">
 							<div className="col-xs-12 col-md-6 about-text">
-								<p>The Giveth Unicorns believe:</p>
+								<p>Les Licornes Giveth croient que :</p>
 								<ul>
-									<li>Donating can be simple, fun and effective.</li>
-									<li><strong>Transparency</strong> and <strong>accountability</strong> can be the default.</li>
-									<li>Every idea has the potential to make a positive impact, and it can be heard and funded in a decentralized fashion.</li>
-									<li>Every Donor can have the ultimate say over how their donation is used.</li>
-									<li>People that want to do good work for their cause can be rewarded for their actions.</li>
-									<li><strong>Real change</strong> and <strong>innovation</strong> comes about when communities join together to make the world a better place.</li>
+									<li>Donner peut être facile, amusant et efficace.</li>
+									<li>La <strong>Transparence</strong> et la <strong>responsabilité</strong> peuvent être la norme.</li>
+									<li>Chaque idée a le potentiel d'avoir un impact positif, et peut être entendue et financée de façon décentralisée.</li>
+									<li>Chaque Donateur peut avoir le dernier mot sur l'utilisation de son don.</li>
+									<li>Ceux qui veulent oeuvrer pour leur cause peuvent être récompensés pour leurs actions.</li>
+									<li>Le <strong>véritable changement</strong> et l'<strong>innovation</strong> viennent lorsque les communautés se rassemblent pour créer un monde meilleur.</li>
 								</ul>
 							</div>
 							<div className="col-xs-12 col-md-6">	
@@ -95,12 +95,12 @@ var Home = React.createClass({
 					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
 						<div className="row">
 							<div className="col-xs-12 col-md-5">
-								<h3 className="why">Why Giveth?</h3>
+								<h3 className="why">Pourquoi Giveth ?</h3>
 							</div>
 							<div className="col-xs-12 col-md-7">
-								<p>The charitable system is slowly evolving and starting to integrate blockchain technology for its frictionless, global, transparent transactions. But Giveth is <strong>leap frogging</strong> this slow integration, taking it to the next level, enabling Donors and Change Makers to interact with each other directly in a safe, trustless manner using a foundation of smart contracts to form Decentralized Charitable Organizations.</p>
-								<p>Giveth's DCOs accounting, international fund distribution, and many other services that are usually done by large charities because of economies of scale.</p>
-								<p>At the same time, these DCOs also enable Donors and Change Makers to work together to crowdsource powerful solutions under their own unique governance and incentive structures to bring more impact for their unique set of resources.</p>
+								<p>Le monde des dons est en train de lentement intégrer la technologie blockchain et ses transactions sans friction et globales. Mais Giveth <strong>accélère</strong> cette lente intégration, l'amenant au niveau supérieur, en permettant aux Donateurs et aux Créateurs de Changement d'interagir entre eux directement de façon sécurisée et sans tiers de confiance, grâce aux smart contracts, pour former des Organisations Charitables Décentralisées.</p>
+								<p>Les OCD de Giveth peuvent gérer la comptabilité, la distribution internationale des fonds, et beaucoup d'autres services qui sont habituellement gérés par les grandes organisations de bienfaisance en raison des économies d'échelle.</p>
+								<p>Dans le même temps, ces OCD permettent aux Donateurs et Créateurs de Changement de travailler ensemble pour mettre en place des solutions, en suivant leurs propres structures de gouvernance, afin de donner plus d'impact à leur ensemble unique de ressources.</p>
 							</div>
 						</div>
 					</div>
@@ -110,17 +110,16 @@ var Home = React.createClass({
 					<div className="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
 						<div className="row">
 							<img src="/images/unicorn profile-transparent.png" alt="Logo" className="img-responsive small-logo"/>
-							<h2>The Giveth Solution</h2>
+							<h2>La Solution Giveth </h2>
 							<div className="col-xs-12 col-md-6">
-								<p>Giveth's smart contracts allow donors to take any level of interest they desire. They can tag their donation to send it to a general category (e.g. Ethereum Projects) or directly to their favorite Decentralized Charitable Organization (DCO). Either way, the Donors will be notified when any portion of their donation is matched to a Change Maker. </p>
-								<p>Transparency, accountability, communication and efficiency are the default on the Giveth Platform. Change Makers and Donors will be able to connect to exchange ideas and show progress on social media platforms like Slack (for now), but when other DApps like, Status.im, Colony, and Akasha are launched, they will be integrated into the Giveth Platform for an even more powerful user experience.</p>
-								<p>Giveth is dedicated to a completely open source development process every step of the way; we will never have a private github repository. We want to enable awesome solutions for <strong>everyone</strong> to use and improve upon.</p>
-								
+								<p>Les smart contracts de Giveth permettent aux Donateurs de choisir leur niveau d'engagement. Ils peuvent marquer leur don pour l'envoyer à une catégorie générale (ex: des projets Ethereum) ou directement à leur OCD préférée. Dans tous les cas, les Donateurs seront notifiés quand une partie de leur don sera mise en relation avec un Créateurs de Changement.</p>
+								<p>La transparence, la responsabilité, la communication et l'efficacité sont la norme sur la Plateforme Giveth. Les Créateurs de Changement et les Donateurs pourront échanger des idées et montrer leurs progrès sur les plateformes de médias sociaux comme Slack (dans un premier temps), mais lorsque d'autres DApps comme Status.im, Colony, et Akasha seront lancées, elles seront intégrées pour une expérience utlisateur encore plus puissante.</p>
+								<p>Giveth est attaché à un processus de développement complètement open source à chaque étape; nous n'aurons jamais de repo Github privée. Nous voulons permettre la création de solutions utlisables et améliorables par <strong>tous</strong>.</p>								
 							</div>
 							<div className="col-xs-12 col-md-6">
-								<p>Change Makers will be encouraged to use our current Milestone Tracker Contract, where donations are only collected upon the completion of pre-arranged milestones. This creates a <strong>result-focused incentive structure</strong> naturally aligning everyone's intentions.</p>
-								<p>The Giveth core team has completed v0.1 of Giveth's <strong><a href="/#dapp">DApp (Donation Application)</a></strong> using our own system.  This means there is complete transparency on how the donations sent to the Giveth Platform have been used. #dogfooding</p>
-								<p>Our current DApp is still in the early prototype stage and focuses on the distribution of funds to the Change Makers. We are currently developing v0.2 which will include ERC 20 tokens and a liquid democracy enabled donation tagging system.</p>
+								<p>Les Créateurs de Changement seront encouragés à utiliser notre Contrat de Suivi d'Objectif actuel, dans lequel les dons ne sont collectés qu'après atteinte des objectifs pré-définis. Cela crée une <strong>structure d'encouragement basée sur les résultats</strong> qui aligne naturellement les intentions de chacun.</p>
+								<p>L'Equipe Giveth a complété la version 0.1 de la <strong><a href="/#dapp">DApp (Donation Application)</a></strong> Giveth en utilisant notre propre système. Cela signifie une complète transparence sur la manière dont les dons envoyés à la Plateforme Giveth sont utilisés.</p>
+								<p>Notre DApp actuelle est encore à l'étape de prototype et se concentre sur la distribution des fonds aux Créateurs de Changement. Nous somme actuellement en train de développer la v0.2 qui incluera les tokens ERC 20 et un système de marquage de dons de type démocratie liquide.</p>
 							</div>
 						</div>
 					</div>
@@ -128,32 +127,32 @@ var Home = React.createClass({
 				{/* How it works */}
 				<div className="row works grey">
 					<div className="col-xs-10 col-sm-8 col-xs-offset-1 col-sm-offset-2">
-						<h3>How It Works</h3>
+						<h3>Le fonctionnement</h3>
 						<div className="row">
 							<div className="col-xs-6 col-md-4">
 								<img src="/images/353400-200.png" alt="" className="img-responsive"/>
-								<p>You want to make the world a better place in some way, big or small.</p>
+								<p>Vous voulez rendre le monde meilleur à votre échelle.</p>
 							</div>
 							<div className="col-xs-6 col-md-4">
 								<img src="/images/301245-200.png" alt="" className="img-responsive"/>
-								<p>You go to Giveth.io to build or join a Decentralized Charitable Organization (DCO) around this idea.</p>
+								<p>Vous allez sur Giveth.io pour construire ou rejoindre une Organisation Charitable Décentralisée (OCD) autour de cette idée.</p>
 							</div>
 							<div className="col-xs-6 col-md-4">
 								<img src="/images/244899-200.png" alt="" className="img-responsive"/>
-								<p>Like minded people join your community to donate, contribute and promote your DCO.</p>
+								<p>Des gens avec les mêmes idées rejoignent votre communauté pour donner, contribuer et promouvoir votre OCD.</p>
 							</div>
 							<div className="clearfix visible-md visible-lg"></div>
 							<div className="col-xs-6 col-md-4">
 								<img src="/images/91306-200.png" alt="" className="img-responsive"/>
-								<p>Change Makers come up with solutions to the problems the community is facing and propose milestones.</p>
+								<p>Des Créateurs de Changement apportent des solutions aux problèmes de la communauté et proposent des objectifs.</p>
 							</div>
 							<div className="col-xs-6 col-md-4">
 								<img src="/images/247217-200.png" alt="" className="img-responsive"/>
-								<p>Milestones are approved for funding by Donors and funds are released to the Change Makers upon completion.</p>
+								<p>Les objectifs sont approuvés par les Donateurs et le financement est transféré aux Créateurs de Changement une fois qu'ils sont réalisés.</p>
 							</div>
 							<div className="col-xs-6 col-md-4">
 								<img src="/images/unicorn profile-transparent.png" alt="" className="img-responsive"/>
-								<p>Another successful action helps to build a better world full of unicorns and rainbows!</p>
+								<p>Une nouvelle action réussie participe à construire un monde meilleur de licornes et d'arcs-en-ciel !</p>
 							</div>
 						</div>
 					</div>
@@ -162,9 +161,9 @@ var Home = React.createClass({
 				<div className="row">
 					<div className="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
 						<div className="col-xs-10">
-							<h3>Join the Giveth Community!</h3>
-							<p>We are actively seeking collaborators and like-minded, autonomous partners to make this vision a reality.</p>
-							<p>If you want to work on a versatile smart contract platform empowering people to make a <strong>real change</strong> in this world, <a href="http://slack.giveth.io/" target="_blank">join our Slack</a> and tell us how you can help. We are well funded, so if you have an idea for a milestone that can improve the Giveth Platform, propose it and join team. See you on the Slack.</p>
+							<h3>Rejoignez la communauté Giveth !</h3>
+							<p>Nous cherchons activement des collaborateurs et des partenaires autonomes et partageant nos valeurs pour faire de cette vision une réalité.</p>
+							<p>Si vous voulez travailler sur une plateforme polyvalente de smart contracts donnant plus de pouvoir aux gens pour créer un <strong>véritable changement</strong> dans ce monde, <a href="http://slack.giveth.io/" target="_blank">rejoignez notre Slack</a> et dites-nous comment vous pouvez aider. Nous avons un bon financement, alors si vous avez une idée d'objectif qui pourrait améliorer la Plateforme Giveth, proposez-la et rejoignez l'équipe. A bientôt sur Slack.</p>
 						</div>
 						<div className="col-xs-2">
 							<a href="http://slack.giveth.io/" target="_blank"><img src="images/Slack-App-Icon.png" alt="Slack" className="slack-icon img-responsive"/></a>
@@ -174,7 +173,7 @@ var Home = React.createClass({
 				<div className="row coloured">
 					<div className="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 footer">
 					<center>
-						<h3>Want to see what we are up to these days?</h3>
+						<h3>Vous voulez savoir ce qu'on fait en ce moment ?</h3>
 							<li className="social"> 
 								<a href="https://www.facebook.com/givethio/" target="_blank"><i className="fa fa-facebook fa-size"></i></a>
 								<a href="https://twitter.com/Givethio" target="_blank"><i className="fa fa-twitter fa-size"></i></a> 

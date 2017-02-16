@@ -6,7 +6,7 @@ var Community = require('./components/community/communityPage');
 var Solution = require('./components/solution/solutionPage');
 var Dapp = require('./components/dapp/dappPage');
 var Campaign = require('./components/campaign/campaignPage');
-{/* var French = require('./components/french/frenchPage'); */}
+var French = require('./components/french/frenchPage');
 
 (function(win) {
 	"use strict";
@@ -18,7 +18,7 @@ var Campaign = require('./components/campaign/campaignPage');
 			case 'solution': Child = Solution; break;
 			case 'dapp': Child = Dapp; break;
 			case 'campaign': Child = Campaign; break;
-			{/* case 'french': Child = French; break; */}
+			case 'french': Child = French; break;
 			default: Child = Home;
 		}
 

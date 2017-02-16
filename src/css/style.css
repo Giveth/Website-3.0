@@ -44,6 +44,7 @@ p a:hover {
 }
 .flag {
   height: 20px;
+  vertical-align: baseline;
 }
 .row {
   padding: 24px 0;
