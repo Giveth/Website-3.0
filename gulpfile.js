@@ -1,6 +1,7 @@
 'use strict';
 
 var gulp = require('gulp');
+var debug = require('gulp-debug');
 var connect = require('gulp-connect');
 var open = require('gulp-open');
 var browserify = require('browserify'); // Bundles JS
@@ -24,7 +25,8 @@ var config = {
 		images: './src/images/*',
 		less: './src/less/**/*.less',
 		css: './src/css/*.css',
-		dist: './dist'
+		dist: './dist',
+		dapp: './dapp/**/*',
 	}
 };
 
@@ -96,10 +98,11 @@ gulp.task('font-awesome', function() {
         .pipe(gulp.dest(config.paths.dist + '/font-awesome'));
 });
 
-gulp.task('dapp'), function() {
-    gulp.src('./dapp/*')
+gulp.task('dapp', function() {
+    gulp.src(config.paths.dapp)
+        .pipe(debug())
         .pipe(gulp.dest(config.paths.dist + '/dapp'));
-}
+});
 
 gulp.task('watch', function() {
 	gulp.watch(config.paths.html, ['html']);
