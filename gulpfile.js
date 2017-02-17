@@ -96,6 +96,11 @@ gulp.task('font-awesome', function() {
         .pipe(gulp.dest(config.paths.dist + '/font-awesome'));
 });
 
+gulp.task('dapp'), function() {
+    gulp.src('./dapp/*')
+        .pipe(gulp.dest(config.paths.dist + '/dapp'));
+}
+
 gulp.task('watch', function() {
 	gulp.watch(config.paths.html, ['html']);
 	gulp.watch(config.paths.less, ['less', 'css']);
@@ -103,6 +108,6 @@ gulp.task('watch', function() {
 	gulp.watch(config.paths.js, ['js', 'lint']);
 });
 
-gulp.task('build', ['html', 'js', 'less', 'css', 'images', 'font-awesome']);
+gulp.task('build', ['html', 'js', 'less', 'css', 'images', 'font-awesome', 'dapp']);
 
-gulp.task('default', ['html', 'lint', 'js', 'less', 'css', 'images', 'font-awesome', 'open', 'watch']);
+gulp.task('default', ['html', 'lint', 'js', 'less', 'css', 'images', 'font-awesome', 'dapp', 'open', 'watch']);
