@@ -15,7 +15,7 @@ var Home = React.createClass({
 								<ul className="nav navbar-nav">
 									<li><a href="/#community">Communauté</a></li>
 									<li><a href="/#solution">Solution</a></li>
-									<li><a href="/#dapp">Dapp</a></li>
+									<li><a href="/dapp">Dapp</a></li>
 									<li><a href="/#campaign">Financer une campagne</a></li>
 									<li><a href="https://medium.com/giveth">Blog</a></li>
 									<li><a href="http://slack.giveth.io/" className="join">Rejoignez-nous</a></li>
@@ -46,7 +46,7 @@ var Home = React.createClass({
 				<div className="row">
 					<div className="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
 						<div className="row">
-							<div className="col-xs-12 col-md-6 logo">					
+							<div className="col-xs-12 col-md-6 logo">
 							</div>
 							<div className="col-xs-12 col-md-6 explanation-paragraph">
 								<div className="ep1">
@@ -84,7 +84,7 @@ var Home = React.createClass({
 									<li>Le <strong>véritable changement</strong> et l'<strong>innovation</strong> viennent lorsque les communautés se rassemblent pour créer un monde meilleur.</li>
 								</ul>
 							</div>
-							<div className="col-xs-12 col-md-6">	
+							<div className="col-xs-12 col-md-6">
 								<img src="/images/about.jpg" alt="About" className="img-responsive about-pic"/>
 							</div>
 						</div>
@@ -114,7 +114,7 @@ var Home = React.createClass({
 							<div className="col-xs-12 col-md-6">
 								<p>Les smart contracts de Giveth permettent aux Donateurs de choisir leur niveau d'engagement. Ils peuvent marquer leur don pour l'envoyer à une catégorie générale (ex: des projets Ethereum) ou directement à leur OCD préférée. Dans tous les cas, les Donateurs seront notifiés quand une partie de leur don sera mise en relation avec un Créateurs de Changement.</p>
 								<p>La transparence, la responsabilité, la communication et l'efficacité sont la norme sur la Plateforme Giveth. Les Créateurs de Changement et les Donateurs pourront échanger des idées et montrer leurs progrès sur les plateformes de médias sociaux comme Slack (dans un premier temps), mais lorsque d'autres DApps comme Status.im, Colony, et Akasha seront lancées, elles seront intégrées pour une expérience utlisateur encore plus puissante.</p>
-								<p>Giveth est attaché à un processus de développement complètement open source à chaque étape; nous n'aurons jamais de repo Github privée. Nous voulons permettre la création de solutions utlisables et améliorables par <strong>tous</strong>.</p>								
+								<p>Giveth est attaché à un processus de développement complètement open source à chaque étape; nous n'aurons jamais de repo Github privée. Nous voulons permettre la création de solutions utlisables et améliorables par <strong>tous</strong>.</p>
 							</div>
 							<div className="col-xs-12 col-md-6">
 								<p>Les Créateurs de Changement seront encouragés à utiliser notre Contrat de Suivi d'Objectif actuel, dans lequel les dons ne sont collectés qu'après atteinte des objectifs pré-définis. Cela crée une <strong>structure d'encouragement basée sur les résultats</strong> qui aligne naturellement les intentions de chacun.</p>
@@ -174,9 +174,9 @@ var Home = React.createClass({
 					<div className="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 footer">
 					<center>
 						<h3>Vous voulez savoir ce qu'on fait en ce moment ?</h3>
-							<li className="social"> 
+							<li className="social">
 								<a href="https://www.facebook.com/givethio/" target="_blank"><i className="fa fa-facebook fa-size"></i></a>
-								<a href="https://twitter.com/Givethio" target="_blank"><i className="fa fa-twitter fa-size"></i></a> 
+								<a href="https://twitter.com/Givethio" target="_blank"><i className="fa fa-twitter fa-size"></i></a>
 								<a href="https://github.com/Giveth" target="_blank"><i className="fa fa-github fa-size"></i></a>
 								<a href="https://medium.com/giveth" target="_blank"><i className="fa fa-medium fa-size"></i></a>
 								<a href="http://slack.giveth.io/" target="_blank"><i className="fa fa-slack fa-size"></i></a>
