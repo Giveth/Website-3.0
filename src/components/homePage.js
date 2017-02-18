@@ -19,7 +19,7 @@ var Home = React.createClass({
 								<ul className="nav navbar-nav">
 									<li><a href="#" id="community-anchor">Community</a></li>
 									<li><a href="#" id="solution-anchor">Solution</a></li>
-									<li><a href="/#dapp">Dapp</a></li>
+									<li><a href="/dapp">Dapp</a></li>
 									<li><a href="/#campaign">Fund a campaign</a></li>
 									<li><a href="https://medium.com/giveth">Blog</a></li>
 									<li><a href="http://slack.giveth.io/" className="join">Join us</a></li>
@@ -50,7 +50,7 @@ var Home = React.createClass({
 				<div className="row">
 					<div className="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
 						<div className="row">
-							<div className="col-xs-12 col-md-6 logo">					
+							<div className="col-xs-12 col-md-6 logo">
 							</div>
 							<div className="col-xs-12 col-md-6 explanation-paragraph">
 								<div className="ep1">
@@ -88,7 +88,7 @@ var Home = React.createClass({
 									<li><strong>Real change</strong> and <strong>innovation</strong> comes about when communities join together to make the world a better place.</li>
 								</ul>
 							</div>
-							<div className="col-xs-12 col-md-6">	
+							<div className="col-xs-12 col-md-6">
 								<img src="/images/about.jpg" alt="About" className="img-responsive about-pic"/>
 							</div>
 						</div>
@@ -119,7 +119,7 @@ var Home = React.createClass({
 								<p>Giveth's smart contracts allow donors to take any level of interest they desire. They can tag their donation to send it to a general category (e.g. Ethereum Projects) or directly to their favorite Decentralized Charitable Organization (DCO). Either way, the Donors will be notified when any portion of their donation is matched to a Change Maker. </p>
 								<p>Transparency, accountability, communication and efficiency are the default on the Giveth Platform. Change Makers and Donors will be able to connect to exchange ideas and show progress on social media platforms like Slack (for now), but when other DApps like, Status.im, Colony, and Akasha are launched, they will be integrated into the Giveth Platform for an even more powerful user experience.</p>
 								<p>Giveth is dedicated to a completely open source development process every step of the way; we will never have a private github repository. We want to enable awesome solutions for <strong>everyone</strong> to use and improve upon.</p>
-								
+
 							</div>
 							<div className="col-xs-12 col-md-6">
 								<p>Change Makers will be encouraged to use our current Milestone Tracker Contract, where donations are only collected upon the completion of pre-arranged milestones. This creates a <strong>result-focused incentive structure</strong> naturally aligning everyone's intentions.</p>
@@ -179,9 +179,9 @@ var Home = React.createClass({
 					<div className="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 footer">
 					<center>
 						<h3>Want to see what we are up to these days?</h3>
-							<li className="social"> 
+							<li className="social">
 								<a href="https://www.facebook.com/givethio/" target="_blank"><i className="fa fa-facebook fa-size"></i></a>
-								<a href="https://twitter.com/Givethio" target="_blank"><i className="fa fa-twitter fa-size"></i></a> 
+								<a href="https://twitter.com/Givethio" target="_blank"><i className="fa fa-twitter fa-size"></i></a>
 								<a href="https://github.com/Giveth" target="_blank"><i className="fa fa-github fa-size"></i></a>
 								<a href="https://medium.com/giveth" target="_blank"><i className="fa fa-medium fa-size"></i></a>
 								<a href="http://slack.giveth.io/" target="_blank"><i className="fa fa-slack fa-size"></i></a>
