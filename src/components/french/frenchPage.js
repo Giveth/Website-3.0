@@ -1,10 +1,10 @@
-'use strict';
+"use strict";
 
-var React = require('react');
+import React from "react";
 
 var Home = React.createClass({
-	render: function() {
-		return (
+    render: function() {
+        return (
 			<container>
 				{/* Introduction with name and baseline */}
 				<div className="row">
@@ -61,7 +61,7 @@ var Home = React.createClass({
 							</div>
 							<div className="col-xs-12 col-md-6 explanation-paragraph">
 								<p>Nous espérons que cette décentralisation encouragera l'émergence de solutions créatives locales aux problèmes globaux. Les méthodes qui fonctionnent pour un groupe peuvent se répandre de façon virale au sein d'une cause en particulier. Du fait de la nature open source de ce système, les solutions qui fonctionnent peuvent s'adapter à toutes les échelles de causes. Si une ONG pour les chats construit une bonne structure de gouvernance, une ONG d'aide aux sans-abri peut facilement l'utiliser pour ses propres besoins. C'est le <strong>Don 3.0</strong>.</p>
-							</div>
+                            </div>
 						</div>
 					</div>
 				</div>
@@ -185,8 +185,8 @@ var Home = React.createClass({
 					</div>
 				</div>
 			</container>
-		);
-	}
+        );
+    }
 });
 
 module.exports = Home;
