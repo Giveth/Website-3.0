@@ -1,18 +1,18 @@
 "use strict";
 
-var React = require('react');
+import React from "react";
 
 var Solution = React.createClass({
-	render: function() {
-		return (
+    render: function() {
+        return (
 			<div>
 				<h1>Solution</h1>
 				<p>
-					
+
 				</p>
 			</div>
-		); 
-	}
+        );
+    }
 });
 
 module.exports = Solution;
