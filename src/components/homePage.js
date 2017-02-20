@@ -1,14 +1,11 @@
-'use strict';
+"use strict";
 
-var React = require('react');
-
-import {
-  FBPage
-} from 'facebook-plugins';
+import React from "react";
+import { FBPage } from "facebook-plugins";
 
 var Home = React.createClass({
-	render: function() {
-		return (
+    render: function() {
+        return (
 			<container>
 				{/* Introduction with name and baseline */}
 				<div className="row">
@@ -191,7 +188,7 @@ var Home = React.createClass({
 					<div className="row timelines">
 						<center>
 							<div id ="facebook" className="col-xs-6 facebook">
-								<FBPage appId="givethio" href="https://www.facebook.com/givethio" width="484" height="600" tabs={['timeline', 'events', 'messages']}/>
+                                <FBPage appId="givethio" href="https://www.facebook.com/givethio" width="484" height="600" tabs={[ "timeline", "events", "messages" ]}/>
 							</div>
 						</center>
 						<center>
@@ -202,8 +199,8 @@ var Home = React.createClass({
 					</div>
 				</div>
 			</container>
-		);
-	}
+        );
+    }
 });
 
 module.exports = Home;
