@@ -10,20 +10,6 @@ var Home = React.createClass({
 				{/* Introduction with name and baseline */}
 				<div className="row">
 					<div className="col-xs-12 col-md-8 col-md-offset-2">
-						{/* Navigation */}
-						<nav className="navbar navbar-default">
-							<div className="container-fluid">
-								<ul className="nav navbar-nav">
-									<li><a href="#" id="community-anchor">Community</a></li>
-									<li><a href="#" id="solution-anchor">Solution</a></li>
-									<li><a href="/dapp">Dapp</a></li>
-									<li><a href="/#campaign">Fund a campaign</a></li>
-									<li><a href="https://medium.com/giveth">Blog</a></li>
-									<li><a href="http://slack.giveth.io/" className="join">Join us</a></li>
-									<li><a href="/#french"><img className="flag float-right" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAAAvCAYAAABe1bwWAAABlElEQVRoQ+3bv07CUBTH8d/BQYluYpx8D0cXWxYHTZCS+DcODj6MM5oIiQ6WKiRO+gY8isS4OACLHENDSUUlnFiGm/yYCFxK7iffnulWkHr5lUYRAz2HYBPAOgBJf29936ztWn8y8/r+0cXMa6csVEA7AmkrctXVqPqcrI03vnVSW1rs5+uAlLP4t+QaDsBMbFfCLpZPN6LLXgzjBeGtAAdZogyv5R4MoCp3hYerQ9ku33s5kZesUVyFiR1UfPGDxiOge4T5JtASPwjfABQIkxbQ1yGMzgPF6VsJGBDmjyoIQxjbwGAxLIbF2ARYjM2LM4bFsBibAIuxeXHGsBgWYxNgMTYvzhgWw2JsAizG5sUZw2JYjE2Axdi8OGNYDIuxCbAYmxdnDIthMTYBFmPz4oxhMSzGJjClGJ7B+4Gj7+IFYVOAuRzhdvGc78ioxXO+v91KgiJPhk/AjE+GDz8vlRr5jwWtA9jPZHKNLuLcrSSIurpyPH6WIMHwKuGOqJwBmjx98i8nR2A6ArQ/gZu16Pop2fAXkg44lBfMKAsAAAAASUVORK5CYII=" alt="French flag"/></a></li>
-								</ul>
-							</div>
-						</nav>
 						{/* Introduction */}
 						<div className="row">
 							<div className="intro-pic">
@@ -188,12 +174,12 @@ var Home = React.createClass({
 					<div className="row timelines">
 						<center>
 							<div id ="facebook" className="col-xs-6 facebook">
-                                <FBPage appId="givethio" href="https://www.facebook.com/givethio" width="484" height="600" tabs={[ "timeline", "events", "messages" ]}/>
+                                <FBPage appId="givethio" href="https://www.facebook.com/givethio" width={484} height={600} tabs={[ "timeline", "events", "messages" ]}/>
 							</div>
 						</center>
 						<center>
 							<div id="twitter" className="col-xs-6">
-								<a className="twitter-timeline" href="https://twitter.com/Givethio" data-width="500" data-height="600">Tweets by Giveth</a>
+								<a className="twitter-timeline" href="https://twitter.com/Givethio" data-width={500} data-height={600}>Tweets by Giveth</a>
 							</div>
 						</center>
 					</div>
