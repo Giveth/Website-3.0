@@ -21,7 +21,8 @@ var config = {
     devBaseUrl: "http://localhost",
     paths: {
         html: "./src/*.html",
-        js: "./src/**/*.jsx?",
+        js: "./src/**/*.js",
+        jsx: "./src/**/*.jsx",
         images: "./src/images/*",
         less: "./src/less/**/*.less",
         css: "./src/css/*.css",
@@ -109,6 +110,7 @@ gulp.task("watch", function() {
     gulp.watch(config.paths.less, [ "less", "css" ]);
     gulp.watch(config.paths.css, [ "css" ]);
     gulp.watch(config.paths.js, [ "js", "lint" ]);
+    gulp.watch(config.paths.jsx, [ "js", "lint" ]);
 });
 
 gulp.task("build", [ "html", "js", "less", "css", "images", "font-awesome", "dapp" ]);

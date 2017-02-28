@@ -2,9 +2,9 @@ import React from "react";
 
 import { Router, Route, hashHistory, IndexRoute } from "react-router";
 import App from "./components/App";
-import Home from "./components/homePage";
-import Community from "./components/community/communityPage";
-import Solution from "./components/solution/solutionPage";
+import Home from "./components/home/homePage";
+import Community from "./components/home/Community";
+import Solution from "./components/home/Solution";
 import Campaign from "./components/campaign/campaignPage";
 import French from "./components/french/frenchPage";
 
