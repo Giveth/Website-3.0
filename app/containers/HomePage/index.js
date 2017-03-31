@@ -10,15 +10,65 @@
  */
 
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
-import messages from './messages';
+import { Row, Col, Image } from 'react-bootstrap';
+import IntroText from 'components/IntroText';
+import IntroColoured from 'components/IntroColoured';
+import Presentation from 'components/Presentation';
+import About from 'components/About';
+import Why from 'components/Why';
+import Solution from 'components/Solution';
 
 export default class HomePage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
   render() {
     return (
-      <h1>
-        <FormattedMessage {...messages.header} />
-      </h1>
+      <div>
+        <Row>
+          <Col xs={12} md={8} mdOffset={2}>
+            <Row>
+              <Image src={require('../../assets/img/1.png')} style={{ display: 'block', margin: '0 auto' }} />
+            </Row>
+            <Row>
+              <IntroText title={'Giveth'} />
+            </Row>
+          </Col>
+        </Row>
+        <Row className="gradient">
+          <Col xs={10} sm={8} xsOffset={1} smOffset={2}>
+            <IntroColoured />
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={10} sm={8} xsOffset={1} smOffset={2}>
+            <Row>
+              <Col xs={12} md={6}>
+                <Image src={require('../../assets/img/logo.svg')} style={{ display: 'block', margin: '0 auto', height: '60%' }} />
+              </Col>
+              <Col xs={12} md={6}>
+                <Presentation text={'presentationText1'} />
+              </Col>
+            </Row>
+            <Row>
+              <Col xs={12} md={6}>
+                <Presentation text={'presentationText2'} />
+              </Col>
+              <Col xs={12} md={6}>
+                <Presentation text={'presentationText3'} />
+              </Col>
+            </Row>
+          </Col>
+        </Row>
+        <Row className="grey">
+          <Col xs={10} sm={8} xsOffset={1} smOffset={2}>
+            <About />
+          </Col>
+        </Row>
+        <Row className="gradient">
+          <Why />
+        </Row>
+        <Row>
+          <Solution />
+        </Row>
+      </div>
     );
   }
 }
