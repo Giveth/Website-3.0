@@ -17,6 +17,9 @@ import Presentation from 'components/Presentation';
 import About from 'components/About';
 import Why from 'components/Why';
 import Solution from 'components/Solution';
+import Works from 'components/Works';
+import Community from 'components/Community';
+import Social from 'components/Social';
 
 export default class HomePage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
   render() {
@@ -25,7 +28,7 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
         <Row>
           <Col xs={12} md={8} mdOffset={2}>
             <Row>
-              <Image src={require('../../assets/img/1.png')} style={{ display: 'block', margin: '0 auto' }} />
+              <Image src={require('../../assets/img/home.png')} style={{ display: 'block', margin: '0 auto' }} />
             </Row>
             <Row>
               <IntroText title={'Giveth'} />
@@ -67,6 +70,15 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
         </Row>
         <Row>
           <Solution />
+        </Row>
+        <Row className="grey">
+          <Works />
+        </Row>
+        <Row>
+          <Community />
+        </Row>
+        <Row className="gradient">
+          <Social />
         </Row>
       </div>
     );

@@ -40,7 +40,6 @@ injectGlobal`
     line-height: 1.1;
     font-size: 32px;
     text-align: center;
-    margin: -30px 0 48px;
   }
 
   h3 {
@@ -50,6 +49,19 @@ injectGlobal`
     line-height: 1.1;
     font-size: 26px;
     margin: 16px 0 24px;
+  }
+
+  a i {
+    color: #444;
+    margin-right: 8px;
+    padding: 8px;
+  }
+
+  a i:hover {
+    background: #0093c9;
+    color: #fff;
+    border-radius: 36px;
+    transition: 0.25s;
   }
 
   #app {
