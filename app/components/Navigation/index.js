@@ -12,8 +12,8 @@ function Navigation() {
         <NavItem eventKey={2}><FormattedMessage {...messages.solution} /></NavItem>
         <NavItem eventKey={3} href="/dapp"><FormattedMessage {...messages.dapp} /></NavItem>
         <NavItem eventKey={4}><FormattedMessage {...messages.campaign} /></NavItem>
-        <NavItem eventKey={5}><FormattedMessage {...messages.blog} /></NavItem>
-        <NavItem eventKey={6} id={'join'}><FormattedMessage {...messages.join} /></NavItem>
+        <NavItem eventKey={5} href="https://medium.com/giveth" target="_blank"><FormattedMessage {...messages.blog} /></NavItem>
+        <NavItem eventKey={6} href="http://slack.giveth.io/" target="_blank" id={'join'}><FormattedMessage {...messages.join} /></NavItem>
         <NavItem id={'language'}><LocaleToggle /></NavItem>
       </Nav>
     </Navbar>
