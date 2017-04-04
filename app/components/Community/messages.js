@@ -18,6 +18,10 @@ export default defineMessages({
     id: 'app.components.HomePage.Community.communityText2a',
     defaultMessage: 'If you want to work on a versatile smart contract platform empowering people to make a real change in this world, ',
   },
+  join: {
+    id: 'app.components.HomePage.Community.join',
+    defaultMessage: 'Join our Slack',
+  },
   communityText2b: {
     id: 'app.components.HomePage.Community.communityText2b',
     defaultMessage: ' and tell us how you can help. We are well funded, so if you have an idea for a milestone that can improve the Giveth Platform, propose it and join team. See you on the Slack.',

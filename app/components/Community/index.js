@@ -15,7 +15,7 @@ function Community() {
         </p>
         <p>
           <FormattedMessage {...messages.communityText2a} />
-          <a href="http://slack.giveth.io/" target="_blank">Join our slack</a>
+          <a href="http://slack.giveth.io/" target="_blank"><FormattedMessage {...messages.join} /></a>
           <FormattedMessage {...messages.communityText2b} />
         </p>
       </Col>

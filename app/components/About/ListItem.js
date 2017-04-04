@@ -1,14 +1,16 @@
-import styled from 'styled-components';
+import React, { PropTypes } from 'react';
+import { FormattedMessage } from 'react-intl';
+import messages from './messages';
 
-const ListItem = styled.li`
-  margin: 1em 0;
-  &:before {
-    font-family: FontAwesome;
-    content: "\\f192";
-    color: #99b83c;
-    font-size: 11px;
-    padding-right: 8px;
-  }
-`;
+function ListItem(props) {
+  const text = props.text;
+  return (
+    <li className="about"><FormattedMessage {...messages[text]} /></li>
+  );
+}
+
+ListItem.propTypes = {
+  text: PropTypes.string.isRequired,
+};
 
 export default ListItem;

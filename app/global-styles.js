@@ -9,8 +9,8 @@ injectGlobal`
   }
 
   body {
-    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
     color: #34495e;
+    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
   }
 
   a {
@@ -64,9 +64,22 @@ injectGlobal`
     transition: 0.25s;
   }
 
-  #app {
-    min-height: 100%;
-    min-width: 100%;
+  .flag {
+    vertical-align: baseline;
+    height: 20px;
+  }
+
+  .navbar .nav li > a {
+    color: #0093c9;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .navbar .nav li > a:hover {
+    background: #0093c9;
+    color: #fff;
+    border-radius: 16px;
+    transition: 0.25s;
   }
 
   .row {
@@ -86,6 +99,40 @@ injectGlobal`
 
   .grey {
     background-color: #f9f9f9;
+  }
+
+  li.about {
+    margin: 1em 0;
+  }
+
+  li.about:before {
+    font-family: FontAwesome;
+    content: "\\f192";
+    color: #99b83c;
+    font-size: 11px;
+    padding-right: 8px;
+  }
+
+  #app {
+    min-height: 100%;
+    min-width: 100%;
+  }
+
+  #join {
+    color: #777;
+  }
+
+  a#join:hover {
+    color: #fff;
+  }
+
+  #language {
+    margin-top: -5px;
+  }
+
+  a#language:hover {
+    background: transparent;
+    color: #0093c9;
   }
 
 `;

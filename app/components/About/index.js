@@ -5,6 +5,12 @@ import ListItem from './ListItem';
 import messages from './messages';
 
 function Presentation() {
+  // make an array out of the "messages" object keys, to be able to map it
+  const msgList = Object.keys(messages);
+  // remove the 4 first elements of the array in order to keep only the list items
+  for (let i = 0; i < 4; i++) {
+    msgList.shift();
+  }
   return (
     <div>
       <Row>
@@ -12,7 +18,10 @@ function Presentation() {
           <FormattedMessage {...messages.header} />
         </h3>
         <p>
-          <FormattedMessage {...messages.paragraph} /><a href={'http://slack.giveth.io/'}>join our Slack.</a>
+          <FormattedMessage {...messages.paragraph} />
+          <a href={'http://slack.giveth.io/'}>
+            <FormattedMessage {...messages.join} />
+          </a>
         </p>
       </Row>
       <Row>
@@ -21,12 +30,7 @@ function Presentation() {
             <FormattedMessage {...messages.listHeader} />
           </p>
           <ListGroup className="fa-ul">
-            <ListItem><FormattedMessage {...messages.aboutList1} /></ListItem>
-            <ListItem><FormattedMessage {...messages.aboutList2} /></ListItem>
-            <ListItem><FormattedMessage {...messages.aboutList3} /></ListItem>
-            <ListItem><FormattedMessage {...messages.aboutList4} /></ListItem>
-            <ListItem><FormattedMessage {...messages.aboutList5} /></ListItem>
-            <ListItem><FormattedMessage {...messages.aboutList6} /></ListItem>
+            { msgList.map((message) => <ListItem key={message} text={message} />)}
           </ListGroup>
         </Col>
         <Col xs={12} md={6}>

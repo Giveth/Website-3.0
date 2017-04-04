@@ -11,6 +11,7 @@
 
 import React from 'react';
 import { Row, Col, Image } from 'react-bootstrap';
+import Navigation from 'components/Navigation';
 import IntroText from 'components/IntroText';
 import IntroColoured from 'components/IntroColoured';
 import Presentation from 'components/Presentation';
@@ -27,6 +28,7 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
       <div>
         <Row>
           <Col xs={12} md={8} mdOffset={2}>
+            <Navigation />
             <Row>
               <Image src={require('../../assets/img/home.png')} style={{ display: 'block', margin: '0 auto' }} />
             </Row>

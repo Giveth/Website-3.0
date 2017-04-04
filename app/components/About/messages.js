@@ -14,6 +14,10 @@ export default defineMessages({
     id: 'app.components.HomePage.About.paragraph',
     defaultMessage: 'The Giveth Core Team is an eclectic mix of people from the Ethereum and nonprofit worlds. They are dedicated to building the tools that will make it easy for anyone to build a global community around a cause. In fact, this core team is using the Giveth Platform to build a community around the Giveth idea itself! If you want to help create the solution, ',
   },
+  join: {
+    id: 'app.components.HomePage.About.join',
+    defaultMessage: 'join our Slack.',
+  },
   listHeader: {
     id: 'app.components.HomePage.About.listHeader',
     defaultMessage: 'The Giveth Unicorns believe:',
