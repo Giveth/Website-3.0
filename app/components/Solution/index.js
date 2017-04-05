@@ -8,7 +8,7 @@ function Solution() {
   return (
     <Col xs={10} sm={8} xsOffset={1} smOffset={2}>
       <Row>
-        <Image className="img-responsive" src={require('../../assets/img/unicorn profile-transparent.png')} style={{ maxHeight: '80px', margin: '0 15%' }} />
+        <Image className="logo" src={require('../../assets/img/unicorn profile-transparent.png')} responsive />
         <h2 style={{ margin: '-30px 0 48px' }}>
           <FormattedMessage {...messages.header} />
         </h2>

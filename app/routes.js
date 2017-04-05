@@ -34,6 +34,14 @@ export default function createRoutes(store) {
         importModules.catch(errorLoading);
       },
     }, {
+      path: '/dapp',
+      name: 'dapp',
+      getComponent(nextState, cb) {
+        import('containers/Dapp')
+          .then(loadModule(cb))
+          .catch(errorLoading);
+      },
+    }, {
       path: '*',
       name: 'notfound',
       getComponent(nextState, cb) {

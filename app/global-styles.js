@@ -101,6 +101,15 @@ injectGlobal`
     background-color: #f9f9f9;
   }
 
+  .logo {
+    max-height: 80px;
+    margin: 0 15%;
+  }
+
+  .baseline {
+    font-size: 18px;
+  }
+
   li.about {
     margin: 1em 0;
   }
@@ -135,4 +144,44 @@ injectGlobal`
     color: #0093c9;
   }
 
+  @media screen and (min-width: 415px) and (max-width: 991px) {
+    p {
+      font-size: 18px;
+    }
+    .about-pic {
+      margin: 48px auto;
+    }
+    .about {
+      font-size: 16px;
+    }
+    .logo {
+      margin: 0;
+    }
+  }
+
+  @media screen and (max-width: 414px) {
+    p {
+      font-size: 14px;
+    }
+    .about-pic {
+      margin: 48px auto;
+    }
+    .about {
+      font-size: 14px;
+    }
+    .logo {
+      display: none;
+    }
+    .baseline {
+      font-size: 14px;
+      margin: 0 20px;
+    }
+    .slack-logo {
+      margin: 0 auto;
+      width: 50%;
+    }
+    ul.social {
+      padding-left: 0;
+    }
+  }
 `;

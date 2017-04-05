@@ -20,7 +20,7 @@ function Social() {
           <h3>
             <FormattedMessage {...messages.header} />
           </h3>
-          <ul style={{ fontSize: '32px' }}>
+          <ul className="social" style={{ fontSize: '32px' }}>
             { socialItem.map((item) => <SocialListItem key={item.type} url={item.url} type={item.type} />) }
           </ul>
         </center>

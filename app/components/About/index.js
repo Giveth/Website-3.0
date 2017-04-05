@@ -34,7 +34,7 @@ function Presentation() {
           </ListGroup>
         </Col>
         <Col xs={12} md={6}>
-          <Image className="img-responsive" src={require('../../assets/img/about.jpg')} style={{ borderRadius: '4px' }} />
+          <Image className="about-pic" src={require('../../assets/img/about.jpg')} style={{ borderRadius: '4px' }} responsive />
         </Col>
       </Row>
     </div>

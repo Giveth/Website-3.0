@@ -6,8 +6,8 @@ import messages from './messages';
 function Community() {
   return (
     <Col xs={10} sm={8} xsOffset={1} smOffset={2}>
-      <Col xs={10}>
-        <h3>
+      <Col sm={10}>
+        <h3 style={{ color: '#777' }}>
           <FormattedMessage {...messages.header} />
         </h3>
         <p>
@@ -19,9 +19,9 @@ function Community() {
           <FormattedMessage {...messages.communityText2b} />
         </p>
       </Col>
-      <Col xs={2}>
+      <Col sm={2}>
         <a href="http://slack.giveth.io/" target="_blank">
-          <Image src={require('../../assets/img/Slack-App-Icon.png')} style={{ marginTop: '72px' }} responsive />
+          <Image className="slack-logo" src={require('../../assets/img/Slack-App-Icon.png')} style={{ marginTop: '72px' }} responsive />
         </a>
       </Col>
     </Col>

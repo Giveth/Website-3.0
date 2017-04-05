@@ -26,6 +26,10 @@ export default defineMessages({
     id: 'boilerplate.containers.HomePage.Navigation.blog',
     defaultMessage: 'Blog',
   },
+  github: {
+    id: 'boilerplate.containers.HomePage.Navigation.github',
+    defaultMessage: 'Github',
+  },
   join: {
     id: 'boilerplate.containers.HomePage.Navigation.join',
     defaultMessage: 'Join us',
