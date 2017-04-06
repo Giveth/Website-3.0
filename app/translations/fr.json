@@ -45,8 +45,9 @@
   "boilerplate.containers.HomePage.Navigation.campaign": "Campagne",
   "boilerplate.containers.HomePage.Navigation.community": "Communauté",
   "boilerplate.containers.HomePage.Navigation.dapp": "Dapp",
+  "boilerplate.containers.HomePage.Navigation.github": "",
   "boilerplate.containers.HomePage.Navigation.join": "Rejoignez-nous",
   "boilerplate.containers.HomePage.Navigation.solution": "Solution",
-  "boilerplate.containers.LocaleToggle.fr": "",
+  "boilerplate.containers.LocaleToggle.de": "",
   "boilerplate.containers.LocaleToggle.en": ""
 }
