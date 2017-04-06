@@ -12,10 +12,10 @@ export default class Why extends Component {
                             <h3 className="why">Why Giveth?</h3>
                         </div>
                         <div className="col-xs-12 col-md-7">
-                            <p>The charitable system is slowly evolving and starting to integrate blockchain technology for its frictionless, global, transparent transactions. But Giveth is <strong>leap frogging</strong> this slow integration, taking it to the next level, enabling Donors and Change Makers to interact with each other directly in a safe, trustless manner using a foundation of smart contracts to form Decentralized Charitable Organizations.</p>
-                            <p>Giveth's DCOs accounting, international fund distribution, and many other services that are usually done by large charities because of economies of scale.</p>
-                            <p>At the same time, these DCOs also enable Donors and Change Makers to work together to crowdsource powerful solutions under their own unique governance and incentive structures to bring more impact for their unique set of resources.</p>
-                        </div>
+                            <p>The charitable system is slowly evolving and starting to integrate blockchain technology to integrate frictionless, global, transparent transactions. But Giveth is <strong>leap frogging</strong> this slow integration, taking it to the next level, enabling Donors and Change Makers to interact with each other directly, in a safe, trustless manner. We are building a foundation of smart contracts to form Decentralized Charitable Organizations.</p>
+							<p>Giveth's DCOs will automate accounting, international fund distribution, and many other services that are usually best served by large charities because of economies of scale.</p>
+							<p>At the same time, these DCOs also enable Donors and Change Makers to work together to crowdsource powerful solutions under their own chosen governance and incentive structures to bring more impact for their unique set of resources.</p>
+						</div>
                     </div>
                 </div>
             </div>
