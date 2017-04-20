@@ -10,7 +10,7 @@ function Navigation() {
       <Nav>
         <NavItem eventKey={1} href="#community"><FormattedMessage {...messages.community} /></NavItem>
         <NavItem eventKey={2} href="#solution"><FormattedMessage {...messages.solution} /></NavItem>
-        <NavItem eventKey={3} href="/dapp"><FormattedMessage {...messages.dapp} /></NavItem>
+        <NavItem eventKey={3} href="http://giveth.io/dapp/index.html"><FormattedMessage {...messages.dapp} /></NavItem>
         <NavItem eventKey={4} href="#campaign"><FormattedMessage {...messages.campaign} /></NavItem>
         <NavItem eventKey={5} href="https://medium.com/giveth" target="_blank"><FormattedMessage {...messages.blog} /></NavItem>
         <NavItem eventKey={6} href="https://github.com/Giveth/" target="_blank"><FormattedMessage {...messages.github} /></NavItem>

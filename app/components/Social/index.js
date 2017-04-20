@@ -2,17 +2,22 @@ import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { FBPage } from 'facebook-plugins';
 import { FormattedMessage } from 'react-intl';
+import $script from 'scriptjs';
 import messages from './messages';
 import SocialListItem from './SocialListItem';
 
 export default class Social extends React.PureComponent {
 
-  componentWillMount() {
-    const script = document.createElement('script');
-    script.src = '//platform.twitter.com/widgets.js';
-    script.charSet = 'utf-8';
-    script.async = true;
-    document.body.appendChild(script);
+  componentDidMount() {
+    // load twitter widget
+    $script('//platform.twitter.com/widgets.js', function () {
+      // inject widget into DOM element
+      twttr.widgets.load(
+        document.getElementById('twitter')
+      );
+    });
+    // load facebook plugin
+    document.addEventListener('fb_init', e => FB.XFBML.parse());
   }
 
   render() {
@@ -43,7 +48,7 @@ export default class Social extends React.PureComponent {
           </center>
           <center>
             <Col xs={6}>
-              <a className="twitter-timeline" href="https://twitter.com/Givethio">Tweets by Givethio</a>
+              <a id="twitter" className="twitter-timeline" href="https://twitter.com/Givethio" data-width={500} data-height={600}>Tweets by Giveth</a>
             </Col>
           </center>
         </Row>
