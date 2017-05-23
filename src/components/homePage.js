@@ -16,7 +16,7 @@ var Home = React.createClass({
 								<ul className="nav navbar-nav">
 									<li><a href="#" id="community-anchor">Community</a></li>
 									<li><a href="#" id="solution-anchor">Solution</a></li>
-									<li><a href="https://milestonetracker.netlify.com/">Dapp</a></li>
+									<li><a href="https://dapp.giveth.io">Dapp</a></li>
 									<li><a href="/#campaign">Fund a campaign</a></li>
 									<li><a href="https://medium.com/giveth">Blog</a></li>
 									<li><a href="http://slack.giveth.io/" className="join">Join us</a></li>
